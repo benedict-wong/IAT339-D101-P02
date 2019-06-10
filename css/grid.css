@@ -113,7 +113,7 @@
 .browse-filter {
   padding: 1rem;
   flex: 20%;
-  height: 10rem;
+  height: 30rem;
 }
 
 .browse-list {
@@ -126,7 +126,6 @@
 .item {
   height: 15rem;
   flex: 25%;
-
 }
 
 .about-contact {
@@ -154,6 +153,7 @@
 @media (max-width: 58em) {
   .browse-filter {
     flex: 100%;
+    height: 6rem;
   }
   .browse-list {
     flex: 100%;

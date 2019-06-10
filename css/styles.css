@@ -47,7 +47,16 @@ a, a:visited{
 	background-color: rgb(150, 150, 150);
 }
 
+.browse-list {
+	background-color: rgb(150, 150, 150);
+}
+
 .item {
-	color: white;
-	background-color: rgb(100, 100, 100);
+	background-color: rgb(245, 245, 245);
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+}
+
+.item:active, .item:hover, .item:focus {
+	background-color: rgb(235,235,235);
 }
