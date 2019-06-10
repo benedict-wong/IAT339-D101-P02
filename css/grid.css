@@ -15,6 +15,12 @@
 
 }
 
+
+
+.header-menu .nav-main-item{
+  color:white;
+}
+
 .header-row-1{
   display:flex;
   height: 2.5em;
@@ -97,6 +103,9 @@
   padding-right: 0.5em;
 }
 
+.main-content{
+  padding-top: 12em;
+}
 
 
 
