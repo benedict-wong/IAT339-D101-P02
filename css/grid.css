@@ -11,10 +11,6 @@
   display: flex;
   flex-flow: column wrap;
 
-
-
-
-
 }
 
 .header-row-1{
@@ -66,4 +62,9 @@
 
 .header-row-1 .nav-main-item{
   align-self: flex-end;
+}
+
+@media (max-width: 52em) {
+
+
 }

@@ -1,4 +1,8 @@
+/*
+	Open Sans from https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans
 
+	Roboto from https://fonts.google.com/specimen/Roboto?selection.family=Roboto
+*/
 
 
 
@@ -12,7 +16,9 @@ header{
 
 }
 
-
+p {
+	font-family: 'Roboto', sans-serif;
+}
 
 
 a{
