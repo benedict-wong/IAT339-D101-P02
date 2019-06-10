@@ -41,15 +41,17 @@
 
 .header-row-3{
   display:flex;
-  flex:1 1 auto;
+  flex-wrap: nowrap;
   align-self: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+  flex: 0 0 50%;
+  justify-content: space-around;
+
 }
 
 .nav-row-3 a{
-  margin:10em;
+  padding: 0 8.5vw;
 }
+
 
 
 .nav-main-logo{
@@ -63,6 +65,8 @@
 .header-row-1 .nav-main-item{
   align-self: flex-end;
 }
+
+
 
 @media (max-width: 52em) {
 
