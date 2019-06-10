@@ -45,11 +45,13 @@
   align-self: center;
   flex: 0 0 50%;
   justify-content: space-around;
+  padding-bottom: 1em;
 
 }
 
 .nav-row-3 a{
   padding: 0 8.5vw;
+
 }
 
 
