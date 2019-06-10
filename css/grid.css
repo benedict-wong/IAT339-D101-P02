@@ -70,8 +70,6 @@
   align-items: center;
   padding: 0 6.95vw;
 
-
-
 }
 
 
@@ -87,8 +85,6 @@
   border-right: 0.1em solid white;
 }
 
-
-
 .nav-main-logo{
   margin-left: 2em;
 }
@@ -97,11 +93,70 @@
   padding-right: 0.5em;
 }
 
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  height: 20rem;
+  padding: 2rem;
+}
 
+.browse-filter { 
+  padding: 1rem;
+  flex: 20%;
+  height: 10rem;
+}
 
+.browse-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  flex: 80%;
+}
 
+.item {
+  height: 15rem;
+  flex: 25%;
+}
 
-@media (max-width: 52em) {
+.about-contact {
+  flex: 100%;
+}
 
+.about-addresses {
+  flex: 100%;
+}
 
+.about-faq {
+  flex: 100%;
+}
+
+.answer {
+  padding-bottom: 2.5rem;
+}
+
+@media (max-width: 78em) {
+  .item {
+    flex: 33%;
+  }
+}
+
+@media (max-width: 58em) {
+  .browse-filter {
+    flex: 100%;
+  }
+  .browse-list {
+    flex: 100%;
+  }
+  .item {
+    flex: 50%;
+  }
+
+}
+
+@media (max-width: 38em) {
+  .item {
+    flex: 100%;
+  }
 }

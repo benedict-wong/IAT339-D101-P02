@@ -42,3 +42,12 @@ a, a:visited{
   width:25%;
   height: auto;
 }
+
+.browse-filter {
+	background-color: rgb(150, 150, 150);
+}
+
+.item {
+	color: white;
+	background-color: rgb(100, 100, 100);
+}
