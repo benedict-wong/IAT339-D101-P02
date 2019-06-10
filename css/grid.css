@@ -99,11 +99,8 @@
   padding-right: 0.5em;
 }
 
-<<<<<<< HEAD
-.main-content{
-  padding-top: 12em;
-=======
 .main-content {
+  padding-top: 12em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -112,7 +109,7 @@
   padding: 2rem;
 }
 
-.browse-filter { 
+.browse-filter {
   padding: 1rem;
   flex: 20%;
   height: 10rem;
@@ -128,7 +125,7 @@
 .item {
   height: 15rem;
   flex: 25%;
->>>>>>> c3d348ae9eb8988dddc388c64c32cd9501299c33
+
 }
 
 .about-contact {
