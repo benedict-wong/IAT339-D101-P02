@@ -15,6 +15,9 @@ header{
 
 
 }
+body{
+  background-color: #F8EFE4;
+}
 
 p {
 	font-family: 'Roboto', sans-serif;
@@ -27,4 +30,15 @@ a{
 }
 a, a:visited{
   color:white;
+}
+
+.header-row-1 img{
+  left: 0;
+  width:auto;
+  height:280%;
+}
+
+.nav-row-1 img{
+  width:25%;
+  height: auto;
 }
