@@ -100,7 +100,10 @@
 }
 
 .main-content {
+<<<<<<< HEAD
   padding: 2rem;
+=======
+>>>>>>> a77d7c3ce7faf656a2a343bd477a7e392c7808ca
   padding-top: 12em;
   display: flex;
   flex-wrap: wrap;
