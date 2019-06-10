@@ -144,6 +144,11 @@
   padding-bottom: 2.5rem;
 }
 
+.news-container {
+  padding: .5rem 4rem;
+  flex: 60%;
+}
+
 @media (max-width: 78em) {
   .item {
     flex: 33%;
@@ -167,5 +172,8 @@
 @media (max-width: 38em) {
   .item {
     flex: 100%;
+  }
+  .news-container {
+    padding: .5rem .5rem;
   }
 }
