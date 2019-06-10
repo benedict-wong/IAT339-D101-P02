@@ -1,0 +1,27 @@
+
+
+
+
+header{
+  padding-top: 0.3em;
+  background-color: #5F6670;
+  position: fixed;
+  width:100%;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+
+}
+a, a:visited{
+  color:white;
+}
