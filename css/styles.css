@@ -55,6 +55,7 @@ a, a:visited{
 }
 
 .browse-list > .item{
+  padding: 1em;
   text-align: center;
 }
 
