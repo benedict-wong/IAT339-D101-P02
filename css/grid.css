@@ -104,6 +104,7 @@
   padding-left: 1em;
   display: flex;
   flex-wrap: wrap;
+
   justify-content: center;
   align-self: center;
   height: 20rem;
@@ -112,7 +113,8 @@
 
 .browse-filter {
   padding: 1rem;
-  flex: 20%;
+  
+  flex: 1 1 20%;
   height: 30rem;
 }
 
@@ -120,7 +122,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  flex: 80%;
+  flex: 1 1 80%;
 }
 
 .item {

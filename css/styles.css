@@ -44,12 +44,20 @@ a, a:visited{
 }
 
 .browse-filter {
+
 	background-color: rgb(150, 150, 150);
+  border-right: 1em solid #F8EFE4;
 }
 
 .browse-list {
+
 	background-color: rgb(150, 150, 150);
 }
+
+.browse-list > .item{
+  text-align: center;
+}
+
 
 .item {
 	background-color: rgb(245, 245, 245);
