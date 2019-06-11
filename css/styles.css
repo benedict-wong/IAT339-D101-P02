@@ -59,6 +59,24 @@ a, a:visited{
   text-align: center;
 }
 
+.item:active{
+  border:0.01em solid black;
+}
+.item > img{
+  width:40%;
+}
+.item > p{
+  margin: 0.1em;
+}
+
+
+
+.price{
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
 
 .item {
 	background-color: rgb(245, 245, 245);
