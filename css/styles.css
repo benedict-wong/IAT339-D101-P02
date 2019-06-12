@@ -87,3 +87,7 @@ a, a:visited{
 .item:active, .item:hover, .item:focus {
 	background-color: rgb(235,235,235);
 }
+
+.about-addresses, .about-faq{
+  border-top: 0.1em solid black;
+}
