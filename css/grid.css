@@ -114,7 +114,6 @@
 
 .browse-filter {
   padding: 1rem;
-
   flex: 1 1 20%;
   height: 30rem;
 }
@@ -138,6 +137,18 @@
 
 .answer {
   padding-bottom: 2.5rem;
+}
+
+.product-img {
+  flex: 1 1 40%;
+  height: 20rem;
+  padding: 1rem;
+}
+
+.product-info {
+  flex: 1 1 60%;
+  height: 20rem;
+  padding: 1rem;
 }
 
 @media (max-width: 78em) {

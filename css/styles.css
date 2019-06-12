@@ -91,3 +91,11 @@ a, a:visited{
 .about-addresses, .about-faq, .news-events {
   border-top: 0.1em solid black;
 }
+
+.product-img {
+	background-color: rgb(200, 200, 200);
+}
+
+.product-info {
+	background-color: rgb(150, 150, 150);
+}
