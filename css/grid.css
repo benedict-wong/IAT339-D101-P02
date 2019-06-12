@@ -142,8 +142,19 @@
   padding: .5rem .5rem;
 }
 
-.about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
+.about-contact, .about-addresses, .about-faq, 
+.news-updates, .news-events, 
+.profile-info, .profile-order, 
+.profile-security, .profile-notification, 
+.profile-billing {
   flex: 100%;
+  padding: 2rem 6rem;
+}
+
+.profile-info {
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
   padding: 2rem 6rem;
 }
 
@@ -207,7 +218,11 @@
   .news-container {
     padding: .5rem .5rem;
   }
-  .about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
+  .about-contact, .about-addresses, .about-faq, 
+  .news-updates, .news-events, 
+  .profile-info, .profile-order, 
+  .profile-security, .profile-notification, 
+  .profile-billing {
     padding: .75rem .5rem;
   }
 }

@@ -94,7 +94,11 @@ a, a:visited{
 	background-color: rgb(245, 245, 245);
 }
 
-.about-addresses, .about-faq, .news-events {
+.about-addresses, .about-faq, 
+.news-events,  
+.profile-order, 
+.profile-security, .profile-notification, 
+.profile-billing {
   border-top: 0.1em solid black;
 }
 
