@@ -88,6 +88,14 @@ a, a:visited{
 	background-color: rgb(235,235,235);
 }
 
+.cart {
+  background-color: rgb(200, 200, 200);
+}
+
+.cart-item {
+	background-color: rgb(245, 245, 245);
+}
+
 .about-addresses, .about-faq, .news-events {
   border-top: 0.1em solid black;
 }

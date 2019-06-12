@@ -130,6 +130,15 @@
   flex: 25%;
 }
 
+.cart {
+  width: 60%;
+  padding: .25rem 1.5rem;
+}
+
+.cart-item {
+  height: 10rem;
+}
+
 .about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
   flex: 100%;
   padding: 2rem 6rem;
@@ -168,17 +177,19 @@
   .item {
     flex: 50%;
   }
-
 }
 
 @media (max-width: 38em) {
   .item {
     flex: 100%;
   }
+  .cart {
+    width: 100%;
+    padding: .25rem 1rem;
+  }
   .news-container {
     padding: .5rem .5rem;
   }
-
   .about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
     padding: .75rem .5rem;
   }
