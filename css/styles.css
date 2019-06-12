@@ -69,8 +69,6 @@ a, a:visited{
   margin: 0.1em;
 }
 
-
-
 .price{
   margin-top: 0;
   font-size: 1.2em;
@@ -110,4 +108,12 @@ a, a:visited{
 
 .shipping {
 	background-color: rgb(200, 200, 200);
+}
+
+.image {
+	background-color: rgb(245, 245, 245);
+}
+
+.detail {
+	background-color: rgb(150, 150, 150);
 }
