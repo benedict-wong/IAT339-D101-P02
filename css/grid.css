@@ -131,25 +131,13 @@
   flex: 25%;
 }
 
-.about-contact {
+.about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
   flex: 100%;
-}
-
-.about-addresses {
-  flex: 100%;
-}
-
-.about-faq {
-  flex: 100%;
+  padding: 2rem 6rem;
 }
 
 .answer {
   padding-bottom: 2.5rem;
-}
-
-.news-container {
-  padding: .5rem 4rem;
-  flex: 60%;
 }
 
 @media (max-width: 78em) {
@@ -178,5 +166,9 @@
   }
   .news-container {
     padding: .5rem .5rem;
+  }
+
+  .about-contact, .about-addresses, .about-faq, .news-updates, .news-events {
+    padding: .75rem .5rem;
   }
 }

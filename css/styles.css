@@ -88,6 +88,6 @@ a, a:visited{
 	background-color: rgb(235,235,235);
 }
 
-.about-addresses, .about-faq{
+.about-addresses, .about-faq, .news-events {
   border-top: 0.1em solid black;
 }
