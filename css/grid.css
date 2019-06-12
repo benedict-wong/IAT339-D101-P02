@@ -160,6 +160,12 @@
   padding: 1rem;
 }
 
+.shipping {
+  width: 60%;
+  padding: .25rem 1.5rem;
+  height: 10rem;
+}
+
 @media (max-width: 78em) {
   .item {
     flex: 33%;

@@ -107,3 +107,7 @@ a, a:visited{
 .product-info {
 	background-color: rgb(150, 150, 150);
 }
+
+.shipping {
+	background-color: rgb(200, 200, 200);
+}
