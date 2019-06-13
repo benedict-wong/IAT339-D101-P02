@@ -43,18 +43,18 @@ a, a:visited{
   height: auto;
 }
 
-.browse-filter {
+.catalog-filter {
 
 	background-color: rgb(150, 150, 150);
   border-right: 1em solid #F8EFE4;
 }
 
-.browse-list {
+.catalog-list {
 
 	background-color: rgb(150, 150, 150);
 }
 
-.browse-list > .item{
+.catalog-list > .item{
   padding: 1em;
   text-align: center;
 }

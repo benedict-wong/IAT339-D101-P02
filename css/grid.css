@@ -120,13 +120,13 @@
   padding: 14rem 10rem;
 }
 
-.browse-filter {
+.catalog-filter {
   padding: 1rem;
   flex: 1 1 20%;
   height: 30rem;
 }
 
-.browse-list {
+.catalog-list {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
@@ -255,11 +255,11 @@
 }
 
 @media (max-width: 58em) {
-  .browse-filter {
+  .catalog-filter {
     flex: 100%;
     height: 6rem;
   }
-  .browse-list {
+  .catalog-list {
     flex: 100%;
   }
   .item {
