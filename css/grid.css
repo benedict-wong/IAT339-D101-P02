@@ -149,13 +149,15 @@
 .section-club {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
   flex: 100%;
 }
 
 .club {
-  height: 5rem;
-  flex: 10%;
+  height: 10rem;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  flex:10%;
 }
 
 .item {
@@ -175,10 +177,10 @@
   padding: .5rem .5rem;
 }
 
-.about-contact, .about-addresses, .about-faq, 
-.news-updates, .news-events, 
-.profile-info, .profile-order, 
-.profile-security, .profile-notification, 
+.about-contact, .about-addresses, .about-faq,
+.news-updates, .news-events,
+.profile-info, .profile-order,
+.profile-security, .profile-notification,
 .profile-billing {
   flex: 100%;
   padding: 2rem 6rem;
@@ -258,10 +260,10 @@
   .news-container {
     padding: .5rem .5rem;
   }
-  .about-contact, .about-addresses, .about-faq, 
-  .news-updates, .news-events, 
-  .profile-info, .profile-order, 
-  .profile-security, .profile-notification, 
+  .about-contact, .about-addresses, .about-faq,
+  .news-updates, .news-events,
+  .profile-info, .profile-order,
+  .profile-security, .profile-notification,
   .profile-billing {
     padding: .75rem .5rem;
   }
