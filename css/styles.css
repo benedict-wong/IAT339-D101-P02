@@ -74,9 +74,62 @@ a, a:visited{
   font-size: 1.2em;
   font-weight: bolder;
 }
+.card{
+  padding: 0.5em 1.2em 1.2em;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
+  background-color: white;
+  overflow:auto;
+  position:relative;
+  z-index: -1;
+  margin-bottom: 1.5em;
+
+}
+
+.card > h3{
+  display:inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom: 1;
+
+  text-align: center;
+  padding: 0.2em 1em;
+
+  margin-top: 0;
 
 
-.item, .club, .catalog {
+}
+
+.card > .update{
+  background-color: #6D97BB;
+}
+
+.card > .psa{
+  background-color: #B20047;
+}
+
+.card > .event{
+  background-color:#7ACCA3;
+}
+
+
+.card >img{
+
+  float:left;
+  padding-right: 1em;
+  width: 10%;
+
+}
+
+.card > *{
+  margin-top:2em;
+}
+
+.card > p{
+  margin-top: 0;
+}
+
+.item, .club, .catalog{
 	background-color: rgb(245, 245, 245);
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
@@ -85,7 +138,7 @@ a, a:visited{
 
 .item:active, .item:hover, .item:focus,
 .club:active, .club:hover, .club:focus,
-.catalog:active, .catalog:hover, .catalog:focus {
+.catalog:active, .catalog:hover, .catalog:focus, .card:hover {
 	background-color: rgb(205,205,205);
 }
 
