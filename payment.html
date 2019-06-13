@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <title>Payment</title>
+
+    <!--     form code retrieved from https://www.w3schools.com/html/html_forms.asp
+ -->
   </head>
   <body>
 
@@ -47,8 +50,29 @@
 	<!-- content -->
 	<div class="main-content container">
     <div class="shipping">
-      <p>payment info</p><br>
-      <a href="confirmation.html">confirmation</a>
+      <h3>Payment Info</h3><br>
+
+      <form action="confirmation.html">
+        Select payment method:<br>
+        <input type="radio" name="paymentmethod" value="creditcard" checked>Credit Card<br>
+        <input type="radio" name="paymentmethod" value="other">Other online payment systems<br>
+
+        Payment information:<br>
+        <input type="text" name="nameoncard" value="Name on Card"><br>
+        <input type="text" name="cardnumber" value="card number">
+        <input type="text" name="securitynumber" value="securitynumber">
+        <br>
+
+        Payment address:<br>
+        <input type="text" name="street" value="street">
+        <input type="text" name="city" value="city">
+        <input type="text" name="province" value="province">
+        <input type="text" name="country" value="country">
+        <input type="text" name="postal" value="postal code">
+
+        <br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
 	</div>
 

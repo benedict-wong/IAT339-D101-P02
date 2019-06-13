@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <title>Shipping</title>
+
+
+<!--     form code retrieved from https://www.w3schools.com/html/html_forms.asp
+ -->
   </head>
   <body>
     <header>
@@ -46,8 +50,24 @@
 	<!-- content -->
 	<div class="main-content container">
     <div class="shipping">
-      <p>shipping info</p><br>
-      <a href="payment.html">payment method</a>
+      <h3>Shipping Info</h3><br>
+
+      <form action="payment.html">
+        First name:<br>
+        <input type="text" name="firstname" value="Jeremy"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Smith"><br><br>
+        Shipping address:<br>
+        <input type="text" name="street" value="street">
+        <input type="text" name="city" value="city">
+        <input type="text" name="province" value="province">
+        <input type="text" name="country" value="country">
+        <input type="text" name="postal" value="postal code">
+
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+
     </div>
 	</div>
 
