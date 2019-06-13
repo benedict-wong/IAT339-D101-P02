@@ -120,6 +120,9 @@ a, a:visited{
   border-top: 0.1em solid black;
 }
 
+
+
+
 .product-img {
 	background-color: rgb(200, 200, 200);
 }
@@ -134,6 +137,7 @@ a, a:visited{
 
 .image {
 	background-color: rgb(245, 245, 245);
+
 }
 
 .detail {

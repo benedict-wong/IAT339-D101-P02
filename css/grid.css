@@ -56,8 +56,12 @@
   background-color: white;
 }
 
-.header-row-2 p{
+.header-row-2 input{
+  outline:none;
+  border:0;
   margin: 0.3em 0;
+  width:99%;
+  height:100%;
 }
 
 .header-row-3{
@@ -191,6 +195,19 @@
   display: flex;
   flex-wrap: wrap;
   padding: 2rem 6rem;
+}
+
+
+
+.profile-info > img{
+  flex: 1 1 auto;
+
+  background-color: white;
+}
+
+.profile_detail{
+  flex: 1 1 80%;
+  background-color: grey;
 }
 
 .answer {
