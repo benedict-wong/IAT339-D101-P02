@@ -80,13 +80,29 @@ a, a:visited{
 	background-color: rgb(245, 245, 245);
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
+
 }
 
 .item:active, .item:hover, .item:focus,
-.club:active, .club:hover, .club:focus, 
+.club:active, .club:hover, .club:focus,
 .catalog:active, .catalog:hover, .catalog:focus {
-	background-color: rgb(235,235,235);
+	background-color: rgb(205,205,205);
 }
+
+
+.club > img{
+  height:80%;
+  display: block;
+  margin:0 auto;
+
+}
+
+.club > p{
+
+  font-size: 0.85rem;
+  text-align: center;
+}
+
 
 .cart {
   background-color: rgb(200, 200, 200);
@@ -96,10 +112,10 @@ a, a:visited{
 	background-color: rgb(245, 245, 245);
 }
 
-.about-addresses, .about-faq, 
-.news-events,  
-.profile-order, 
-.profile-security, .profile-notification, 
+.about-addresses, .about-faq,
+.news-events,
+.profile-order,
+.profile-security, .profile-notification,
 .profile-billing {
   border-top: 0.1em solid black;
 }
