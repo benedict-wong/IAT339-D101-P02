@@ -76,13 +76,15 @@ a, a:visited{
 }
 
 
-.item {
+.item, .club, .catalog {
 	background-color: rgb(245, 245, 245);
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 }
 
-.item:active, .item:hover, .item:focus {
+.item:active, .item:hover, .item:focus,
+.club:active, .club:hover, .club:focus, 
+.catalog:active, .catalog:hover, .catalog:focus {
 	background-color: rgb(235,235,235);
 }
 
@@ -120,4 +122,8 @@ a, a:visited{
 
 .detail {
 	background-color: rgb(150, 150, 150);
+}
+
+.catalog-img {
+	background-color: rgb(200, 200, 200);
 }
