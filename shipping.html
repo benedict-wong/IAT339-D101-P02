@@ -50,22 +50,29 @@
 	<!-- content -->
 	<div class="main-content container">
     <div class="shipping">
-      <h3>Shipping Info</h3><br>
+      <h3>Shipping Info</h3>
 
-      <form action="payment.html">
-        First name:<br>
-        <input type="text" name="firstname" value="Jeremy"><br>
-        Last name:<br>
-        <input type="text" name="lastname" value="Smith"><br><br>
-        Shipping address:<br>
-        <input type="text" name="street" value="street">
-        <input type="text" name="city" value="city">
-        <input type="text" name="province" value="province">
-        <input type="text" name="country" value="country">
-        <input type="text" name="postal" value="postal code">
-
-        <br>
-        <input type="submit" value="Submit">
+      <form action="payment.html" method="POST">
+        <ul>
+        <li><label for="firstname"> First name: </label>
+        <input type="text" name="firstname" placeholder="First Name"></li>
+        <li>⠀</li>
+        <li><label for="lastname">Last name:</label>
+        <input type="text" name="lastname" placeholder="Last Name"></li>
+        <li>⠀</li>
+        <li><label>Shipping address:</label>
+        <li><input type="text" name="street" placeholder="Address" size="42"></li>
+        <li>⠀</li>
+        <li><input type="text" name="city" placeholder="City">
+        <input type="text" name="province" placeholder="Province"></li>
+        <li>⠀</li>
+        <li><input type="text" name="postal" placeholder="Zip Code">
+        <input type="text" name="country" placeholder="Country">
+        </li>
+      </ul>
+      <ul>
+        <input type="submit" value="Submit" >
+      </ul>
       </form>
 
     </div>

@@ -55,7 +55,7 @@ a, a:visited{
 }
 
 .catalog-list > .item{
-  padding: 1em;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -173,8 +173,26 @@ a, a:visited{
   border-top: 0.1em solid black;
 }
 
+ul{
+  list-style: none;
+}
 
+.payment-form > ul{
+  list-style: none;
+}
 
+.shipping >li{
+  margin-top:0.1em;
+}
+
+.payment-form > input{
+
+  padding: 0.1em 0.5em;
+}
+
+.submit-button{
+  margin-top: 0.5em;
+}
 
 .product-img {
 	background-color: rgb(200, 200, 200);
@@ -187,6 +205,9 @@ a, a:visited{
 .shipping {
 	background-color: rgb(200, 200, 200);
 }
+
+
+
 
 .image {
 	background-color: rgb(245, 245, 245);
