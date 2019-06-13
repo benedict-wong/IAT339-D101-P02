@@ -183,7 +183,7 @@
 .profile-security, .profile-notification,
 .profile-billing {
   flex: 100%;
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
 }
 
 .profile-info {
@@ -222,6 +222,62 @@
 .detail {
   flex: 1 1 60%;
 }
+
+.card{
+  flex: 1 1 100%;
+  padding: 0.5em 1.2em 1.2em;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
+  background-color: white;
+  overflow:auto;
+  position:relative;
+  z-index: -1;
+  margin-bottom: 1.5em;
+}
+
+.card > h3{
+  display:inline-block;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom: 1;
+
+  text-align: center;
+  padding: 0.2em 1em;
+
+  margin-top: 0;
+
+
+}
+
+.card > .update{
+  background-color: #6D97BB;
+}
+
+.card > .psa{
+  background-color: #B20047;
+}
+
+.card > .event{
+  background-color:#7ACCA3;
+}
+
+
+.card >img{
+
+  float:left;
+  padding-right: 1em;
+  width: 10%;
+
+}
+
+.card > *{
+  margin-top:2em;
+}
+
+.card > p{
+  margin-top: 0;
+}
+
 
 @media (max-width: 78em) {
   .item {
