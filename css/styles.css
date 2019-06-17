@@ -348,6 +348,21 @@ ul{
   clear:both;
 }
 
+.review-write{
+  text-align: center;
+}
+
+.review-write > textarea{
+  width:44em;
+  height:20em;
+
+}
+
+.review-write > button{
+  margin-left: auto;
+
+}
+
 
 .shipping {
 	background-color: white;
