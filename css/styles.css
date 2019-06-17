@@ -252,7 +252,7 @@ a, a:visited{
 
 
 
-.about-addresses, .about-faq,
+.about-contact, .about-addresses, .about-faq,
 .news-events,
 .profile-order,
 .profile-security, .profile-notification,
@@ -392,12 +392,8 @@ ul{
   text-align: center;
 }
 
-.about{
-  margin: 0 25em;
 
-}
-
-.about-contact, .about-addresses, .about-faq{
+.about-content, .about-contact, .about-addresses, .about-faq{
   background-color: white;
 
 
