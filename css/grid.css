@@ -371,6 +371,10 @@
     align-self: flex-start;
     margin-right: 2em;
   }
+  .shipping {
+    width: 80%;
+    padding: 1rem 1.5rem;
+  }
 }
 
 @media (max-width: 38em) {
@@ -420,5 +424,9 @@
     margin-right: 1em;
     margin-top: 0;
     padding: 1em 0;
+  }
+  .shipping {
+    width: 100%;
+    padding: 1rem 1.5rem;
   }
 }
