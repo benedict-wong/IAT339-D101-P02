@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>DetailedProductName</title>
-
+    <script src="js/functions.js"></script>
 
   </head>
   <body>
@@ -49,18 +49,59 @@
 	<div class="main-content container product">
 		<!-- detailed product -->
       <div class="product-left">
-        
+
         <div class="product-img">
-          product img
+          <div class="image-file image-1">
+            <img class="image-preview" src="img/item_1.png" alt="image 1">
+
+          </div>
+
+
+          <div class="dot-row">
+            <span class="image-dot" onClick="showImage(1)"></span>
+            <span class="image-dot" onClick="showImage(2)"></span>
+            <span class="image-dot" onClick="showImage(3)"></span>
+          </div>
         </div>
 
-        <div class="product-info">product info<br>
+        <div class="product-info">
+          <h3>Manchester United 2019/2020 Home Kit</h3>
 
         </div>
 
 
 
-        <div class="product-review">product review<br>
+        <div class="product-review"><h3>Product Reviews</h3>
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">Ronaldinho1980</p>
+              <p class="review-date">June 16, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">Beckham1975</p>
+              <p class="review-date">June 10, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">CR7</p>
+              <p class="review-date">June 10, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+
+
         </div>
         <!-- end left -->
       </div>
@@ -68,14 +109,15 @@
       <div class="product-right">
         <p>Size:</p>
         <select>
+          <option value="extra-small">XS</option>
           <option value="small">S</option>
           <option value="medium">M</option>
           <option value="large">L</option>
           <option value="extra-large">XL</option>
         </select>
         <p>Quantity:</p>
-        <input type="text" name="quantity" value="1">
-        <div>
+        <input type="number" name="quantity" min="1" max="99">
+        <div class="add-to-cart-button">
             <a href="cart.html"><button type="button">Add to Cart</button></a>
           </div>
       </div>

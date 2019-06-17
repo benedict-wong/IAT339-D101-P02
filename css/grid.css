@@ -190,6 +190,8 @@
 
 
 
+
+
 }
 
 .cart-box{
@@ -198,11 +200,15 @@
 
 .cart-card-left{
   display:flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   flex:60%;
   padding: 1em 6em;
   padding-top:2em;
   padding-right: 1.3em;
+  overflow:scroll;
+  height:65%;
+
+
 
 }
 
@@ -221,44 +227,76 @@
   display:flex;
   flex-flow:row nowrap;
   flex:100%;
-  margin-top: 3em;
+
 }
 
 .product-left{
-  margin-right: 1em;
-  flex:60%;
+  margin-right: 2em;
+  flex:80%;
   padding: 1em 6em;
   padding-top:2em;
   padding-right: 1em;
   display:flex;
   flex-flow: wrap;
+  margin-top: 1em;
 }
 
 .product-right{
-  margin-right: 1em;
-  flex:30%;
+  margin-right: 0.5em;
+  flex:20%;
   align-self: flex-start;
-  padding: 1em 6em;
-  padding-left: 1em;
-  padding-top: 2em;
-  padding-right: 1em;
+
+  margin-top: 1em;
 }
 
 .product-img {
-  flex: 1 1 40%;
+  flex: 1 1 12.5%;
   height: 20rem;
+  overflow:visible;
   padding: 1rem;
+
+
+}
+
+.image-file{
+  max-width: 50%;
+  max-height: auto;
+
+
+}
+.dot-row{
+  text-align: center;
+}
+.image-dot{
+  cursor:pointer;
+  height:1em;
+  width:1em;
+  margin: 0 0.1em;
+  background-color: red;
+  border-radius: 50%;
+  display:inline-block;
+  transition: background-color 0.5s ease;
+  margin-top: 1.5em;
+
+}
+
+.image-dot:hover, .image-dot-active{
+  background-color: grey;
 }
 
 .product-info {
-  flex: 1 1 60%;
+  flex: 1 1 75%;
   height: 20rem;
   padding: 1rem;
 }
 
 .product-review {
-  height: 20rem;
+  
   flex: 1 1 100%;
+}
+
+.add-to-cart-button{
+  margin-top: 0.5em;
 }
 
 
@@ -268,7 +306,7 @@
 }
 
 .about-contact, .about-addresses, .about-faq,
-.news-events,  
+.news-events,
 .profile-info, .profile-order,
 .profile-security, .profile-notification,
 .profile-billing {
