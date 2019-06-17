@@ -376,3 +376,19 @@ ul{
 #title{
   text-align: center;
 }
+
+.about{
+  margin: 0 25em;
+
+}
+
+.about-contact, .about-addresses, .about-faq{
+  background-color: white;
+
+
+}
+
+.about-faq{
+  margin-bottom: 2em;
+  box-shadow: 0 0.5em 0.5em -0.4em;
+}
