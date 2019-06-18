@@ -472,7 +472,9 @@ ul{
   .product-img{
     flex:35%;
   }
-
+  .container-home {
+    padding: 14rem 0rem;
+  }
 }
 @media only screen and (max-width: 58em){
 
@@ -496,11 +498,9 @@ ul{
     flex: 50%;
   }
   .club {
-    flex: 20%;
+    flex: 12%;
   }
-  .container-home {
-    padding: 14rem 6rem;
-  }
+
   .card {
     margin:2em 5em;
   }
@@ -554,12 +554,10 @@ ul{
   }
 
   .club {
-    height: 5rem;
-    flex: 33%;
+    height: 9rem;
+    flex: 30%;
   }
-  .container-home {
-    padding: 14rem 0rem;
-  }
+
   .card {
     margin:.5em .25em;
   }
@@ -595,7 +593,6 @@ ul{
   .order-list{
 	  margin: 0em 0em;
 	}
-
 
 
 }
