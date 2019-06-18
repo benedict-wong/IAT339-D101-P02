@@ -284,10 +284,11 @@ ul{
 
 .product-left {
     padding: 0.5em 1.2em 1.2em;
+    padding-bottom: 2em;
     box-shadow: 0 0.5em 1em -0.4em;
     background-color: white;
     z-index: 1;
-    height: 100rem;
+    height:auto;
     width:auto;
     margin-bottom: 1.5em;
 
@@ -321,6 +322,7 @@ ul{
   align-items: center;
 	background-color: rgb(122, 135, 180);
   padding-left: 1em;
+  padding-bottom: 2em;
   align-items: center;
 
 }
@@ -407,4 +409,51 @@ ul{
 .about-faq{
   margin-bottom: 2em;
   box-shadow: 0 0.5em 0.5em -0.4em;
+}
+@media only screen and (max-width: 100em){
+  .product-img{
+    flex:25%;
+  }
+  .product-info{
+    flex:75%;
+  }
+
+}
+
+@media only screen and (max-width: 84em){
+  .product-img{
+    flex:30%;
+  }
+  .product-info{
+    flex:70%;
+  }
+
+}
+
+
+@media only screen and (max-width: 65em){
+
+  .product-left{
+    margin-left:2em;
+    margin-right: 2em;
+    justify-content: center;
+
+  }
+  .product-img{
+    flex:35%;
+  }
+
+}
+@media only screen and (max-width: 58em){
+
+  .product-left{
+    margin-left:2em;
+    margin-right: 2em;
+    justify-content: center;
+
+  }
+  .product-img{
+    flex:50%;
+  }
+
 }
