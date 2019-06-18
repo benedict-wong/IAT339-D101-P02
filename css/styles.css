@@ -411,6 +411,10 @@ ul{
   box-shadow: 0 0.5em 0.5em -0.4em;
 }
 @media only screen and (max-width: 100em){
+  .nav-main-logo{
+    margin-bottom: 1em;
+
+  }
   .product-img{
     flex:25%;
   }
