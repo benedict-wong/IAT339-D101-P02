@@ -431,7 +431,7 @@ ul{
 }
 
 
-@media only screen and (max-width: 65em){
+@media only screen and (max-width: 68em){
 
   .product-left{
     margin-left:2em;
@@ -441,19 +441,6 @@ ul{
   }
   .product-img{
     flex:35%;
-  }
-
-}
-@media only screen and (max-width: 58em){
-
-  .product-left{
-    margin-left:2em;
-    margin-right: 2em;
-    justify-content: center;
-
-  }
-  .product-img{
-    flex:50%;
   }
 
 }
