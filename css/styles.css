@@ -316,15 +316,17 @@ ul{
 }
 
 .product-review {
-  display:flex;
+  display:inline-flex;
   flex-flow:column nowrap;
   align-items: center;
 	background-color: rgb(122, 135, 180);
   padding-left: 1em;
+  align-items: center;
+
 }
 
 .review-item{
-
+  flex:1 0 100%;
   margin: 1em 1.5em;
   margin-bottom: 1.5em;
   padding: 0.5em 1.2em 1.2em;
@@ -334,6 +336,7 @@ ul{
   z-index: 1;
   max-width: 50%;
   width:50%;
+  max-height: 15%;
 }
 .review-top-info{
   display:inline;
@@ -349,11 +352,13 @@ ul{
 }
 
 .review-write{
+
   text-align: center;
 }
 
 .review-write > textarea{
-  width:44em;
+  flex: 1 1 auto;
+  width:44vw;
   height:20em;
 
 }
