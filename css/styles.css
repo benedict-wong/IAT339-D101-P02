@@ -156,18 +156,21 @@ a, a:visited{
   max-width:50em;
   margin-top: 0;
 }
+.club{
+  transition: background-color 0.5s ease-out;
+}
 
-.item, .club, .catalog{
+.item, .catalog{
 	background-color: rgb(245, 245, 245);
 	text-decoration: none;
-	transition: background-color 0.5s ease-out;
+
 
 }
 
 .item:active, .item:hover, .item:focus,
 .club:active, .club:hover, .club:focus,
 .catalog:active, .catalog:hover, .catalog:focus, .card:hover {
-	background-color: rgb(230,136,136);
+	background-color: rgb(136,136,136);
 }
 
 
@@ -403,7 +406,10 @@ ul{
 }
 
 .club{
-  background-color: #F8EFE4;
+  flex:9%;
+
+
+
 }
 
 #title{
@@ -435,6 +441,11 @@ ul{
   }
   .cart-card-left{
     margin-left:2em;
+  }
+  .club{
+    flex:18%;
+
+
   }
 
 }
@@ -475,6 +486,13 @@ ul{
   .container-home {
     padding: 14rem 0rem;
   }
+  .section-club{
+    margin-left: 0.5em;
+  }
+  .club {
+    flex: 18%;
+  }
+
 }
 @media only screen and (max-width: 58em){
 
@@ -497,9 +515,7 @@ ul{
   .item {
     flex: 50%;
   }
-  .club {
-    flex: 12%;
-  }
+
 
   .card {
     margin:2em 5em;
@@ -553,9 +569,20 @@ ul{
     padding: .75rem .5rem;
   }
 
+  .section-club{
+    margin-left: 3em;
+    justify-content: flex-start;
+  }
   .club {
     height: 9rem;
     flex: 30%;
+    max-width: 30%;
+
+
+  }
+
+  .club > p{
+    padding-top: 0;
   }
 
   .card {
