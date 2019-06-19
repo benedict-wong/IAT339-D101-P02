@@ -41,7 +41,7 @@ a, a:visited{
 }
 
 .nav-row-1 img{
-  width:25%;
+  width: 25%;
   height: auto;
 }
 
@@ -494,6 +494,13 @@ ul{
   }
 
 }
+.nav-row-1{
+  padding-left: 45vw;
+}
+.nav-row-1 img{
+  width: 35%;
+}
+
 @media only screen and (max-width: 58em){
 
   .product-left{
@@ -620,6 +627,20 @@ ul{
   .order-list{
 	  margin: 0em 0em;
 	}
+  .nav-row-1{
+	  padding-left: 33vw;
+	}
+  .nav-row-1 img{
+	  width: 40%;
+	}
 
+}
 
+@media (max-width: 25em) {
+  .nav-row-1{
+	  padding-left: 30vw;
+	}
+  .nav-row-1 img {
+	  width: 60%;
+	}
 }
