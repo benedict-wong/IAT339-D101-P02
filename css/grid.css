@@ -8,7 +8,7 @@
 .header-menu{
 
   padding-top: 1em;
-  margin:0;
+  margin: 0;
   display: flex;
   flex-flow: column wrap;
 
@@ -92,8 +92,10 @@
 
 
 
-.nav-main-item{
+.nav-main-item img{
   padding-right: 0.5em;
+  width:48%;
+  height: auto;
 }
 
 .main-content {
