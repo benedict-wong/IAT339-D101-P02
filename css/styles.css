@@ -8,7 +8,7 @@
 
 header{
   padding-top: 0.3em;
-  background-color: #5F6670;
+  background-color: rgb(37, 51, 65);
   position: fixed;
   width:100%;
   font-family: 'Open Sans', sans-serif;
@@ -17,7 +17,7 @@ header{
 
 }
 body{
-  background-color: #F8EFE4;
+  background-color: #D2D5D5;
 }
 
 p {
