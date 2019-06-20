@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/normalize.css">
 
     <title>Profile</title>
+
+<!--     w3schools (n.d.). How TO - Toggle Switch. Retrieved from https://www.w3schools.com/howto/howto_css_switch.asp -->
   </head>
   <body>
 
@@ -24,8 +26,6 @@
             <nav class="nav-row-1">
               <div class="nav-main-item">
                 <a href="profile.html"><img src="img/profile_icon.png"></a>
-              </div>
-              <div class="nav-main-item">
                 <a href="cart.html"><img src="img/cart_icon.png"></a>
               </div>
 
@@ -73,25 +73,28 @@
       <div class="profile-item profile-info" id="profile-info">
         <h3>Profile Information</h3>
 
-      </div>
-      <div class="section-separator"></div>
-      <!-- security -->
-      <div class="profile-item profile-security">
-        <h3>Security Information</h3>
+		<!-- security -->
+		<div class="content-item profile-security">
+      <h3>Security Info</h3>
+      <p>password: xxxxxxxxx</p>
+      <p>account name: xxxxxxxxx</p>
+		</div>
 
-      </div>
-      <div class="section-separator"></div>
-      <!-- billing information -->
-      <div class="profile-item profile-billing">
-        <h3>Billing Information</h3>
-      </div>
-      <div class="section-separator"></div>
-      <div class="profile-item profile-order">
-        <h3>Order list</h3>
-        <div><a href="orderList.html">Your Orders</a></div>
-  		</div>
+		<!-- notification -->
+		<div class="content-item profile-notification">
+      <h3>Notification</h3>
+          <li>Notify me via e-amil when there are new arrivals:</li>
+        <ul>
+          <li><input type="radio" name="notification" value="no">No</li>
+          <li><input type="radio" name="notification" value="yes" checked>Yes</li>
+        </ul>
+		</div>
 
-    </div>
+		<!-- billing information -->
+		<div class="content-item profile-billing">
+      <h3>Billing info</h3>
+      
+		</div>
 
 
 
