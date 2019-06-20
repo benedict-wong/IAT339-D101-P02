@@ -586,9 +586,6 @@ ul{
     flex-flow: column nowrap;
     align-items: center;
   }
-
-
-
 }
 
 
@@ -664,6 +661,14 @@ ul{
 	  margin: 0em 0em;
 	}
 
+	.nav-row-1 {
+		margin-left: 1rem;
+	}
+
+	.nav-main-item img{
+	  width:60%;
+	  height: auto;
+	}
 
 
 }
