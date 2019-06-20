@@ -574,6 +574,7 @@ address span{
   }
    .item {
     flex: 33%;
+    max-width:25%;
   }
   .card {
     margin:2em 15em;
@@ -644,6 +645,7 @@ address span{
   }
   .item {
     flex: 50%;
+    max-width: 50%;
   }
 
 
