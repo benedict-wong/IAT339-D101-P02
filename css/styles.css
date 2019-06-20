@@ -15,7 +15,13 @@ header{
   z-index:999;
 
 
+
 }
+#header{
+  top: 0;
+  transition: top 0.5s;
+}
+
 body{
   background-color: #D2D5D5;
 }
@@ -500,6 +506,7 @@ ul{
 }
 .address-radio >address{
   margin-right: 2em;
+  margin-bottom: 1em;
 
 }
 
@@ -794,11 +801,25 @@ address span{
   .nav-row-1{
     margin-right: 0;
   }
-  .nav-main-item img{
-    width:40%;
-    height:auto;
+  .nav-main-logo-img{
+    margin-left: 0.2em;
+    max-height:75%;
   }
   .catalog-filter{
     min-width:35%;
+  }
+}
+
+@media(max-width:22em){
+  .nav-row-1{
+    margin-left: 0;
+
+
+  }
+}
+
+@media(max-width:20em){
+  .nav-main-item{
+    max-width: 4em;
   }
 }
