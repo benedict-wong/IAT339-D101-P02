@@ -464,8 +464,9 @@ ul{
 }
 
 .filter-style {
-	padding: 0.5rem;
-	background-color: rgb(245, 245, 245);
+	padding: 0.5rem 0;
+	background-color: rgb(255, 248, 247);
+	border-radius: 10px;
 }
 
 
@@ -559,10 +560,11 @@ ul{
   }
     .catalog-filter {
     flex: 100%;
-    height: 6rem;
+    height: 16rem;
   }
   .catalog-list {
     flex: 100%;
+    margin-top: 1em;
   }
   .item {
     flex: 50%;
