@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script src="linkTo.js"></script>
+    <script src="js/linkTo.js"></script>
+    <script src="js/functions.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -61,7 +62,7 @@
       <div class='profile-left profile-nav'>
 
         <div class="profile-detail">
-          <img src="img/tomatoicon.png" alt=""/>
+          <img src="img/tomatoicon.png" alt="" class="profile-picture"/>
           <h3 id="username">Sanada-Yukimura</h3>
           <p id="birthday">Birthday: 03/06/1969</p>
           <p id="phone">Phone # : (778)123-1234</p>
@@ -76,12 +77,32 @@
 		<!-- order list -->
       <div class="profile-item profile-info" id="profile-info">
         <h3>Profile Information</h3>
+        <div class="profile-info">      
+          <h4>Upload a new profile picture:</h4>
+          <form action="" id="change-profile-pic">
+            <input type="file" name="profile-picture" accept="image/*" id="picUpload">
+            <input type="submit" value="Upload">
+          </form>
+
+        </div>
 
 		<!-- security -->
 		<div class="content-item profile-security">
       <h3>Security Info</h3>
-      <p>account name: xxxxxxxxx</p>
-      <p>password: hunter2</p>
+
+      <div class="change-password">
+        <h4>Change Password:</h4>
+        <ul>
+        <li><label>Current Password: </label><input type="text"></li>
+        <li><label>New Password: </label><input type="text"></li>
+        <li><label>Retype Password: </label><input type="text"></li>
+      </ul>
+      <div class="clear-float">
+        <button>Save Changes</button>
+      </div>
+
+      </div>
+
 		</div>
 
 		<!-- notification -->

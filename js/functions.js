@@ -27,3 +27,10 @@ function showImage(x){
   }
 
 }
+
+// function changeProfileImg(){
+//   var val = document.getElementById('picUpload').value;
+//   if(val){
+//     document.querySelector('profile-picture').src = val;
+//   }
+// }

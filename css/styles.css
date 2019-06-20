@@ -445,7 +445,31 @@ ul{
 
 }
 
+#picUpload{
+  border:0.01em solid grey;
+}
+
+.password-change{
+  display:block;
+}
+.change-password > ul{
+  margin-top: 0;
+  padding-left: 0;
+  float:left;
+
+}
+.change-password >ul>li{
+  margin-bottom: 0.5em;
+  text-align: right;
+}
+.clear-float{
+  clear:both;
+}
+
+
+
 .profile-notification > ul{
+
   padding:0;
 }
 .profile-notification > ul >li{
@@ -491,8 +515,8 @@ address span{
 
 .filter-style {
 	padding: 0.5rem 0;
-	background-color: rgb(255, 248, 247);
-	border-radius: 10px;
+	background-color: white;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
 }
 
 
@@ -568,6 +592,10 @@ address span{
   	.about-content{
 	  margin:2em 5em;
 	}
+  .catalog-filter {
+    flex: 100%;
+    height: 16rem;
+  }
 }
 
 
@@ -584,10 +612,7 @@ address span{
   .product-img{
     flex:50%;
   }
-    .catalog-filter {
-    flex: 100%;
-    height: 16rem;
-  }
+
   .catalog-list {
     flex: 100%;
     margin-top: 1em;
