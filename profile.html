@@ -81,27 +81,48 @@
 		<div class="content-item profile-security">
       <h3>Security Info</h3>
       <p>account name: xxxxxxxxx</p>
-      <p>password: xxxxxxxxx</p>
+      <p>password: hunter2</p>
 		</div>
 
 		<!-- notification -->
 		<div class="content-item profile-notification">
       <h3>Notifications</h3>
         <ul>
-          <li><input type="checkbox" name="newsletter" value="sub-newsletter"> Subscribe to our newsletter.</li>
-          <li><input type="checkbox" name="admin-email" value="admin-email"> Receive e-mails from admins.</li>
+          <li><input type="checkbox" name="newsletter" value="sub-newsletter" checked> Subscribe to our newsletter.</li>
+          <li><input type="checkbox" name="admin-email" value="admin-email" checked> Receive e-mails from admins.</li>
           <li><input type="checkbox" name="profile-pub" value="profile-public"> Allow other users to see my profile.</li>
+          <li><button>Update</button></li>
         </ul>
 		</div>
 
 		<!-- billing information -->
 		<div class="content-item profile-billing">
       <h3>Billing info</h3>
-      <ul>
-        <li>303 Browning Lane</li>
-        <li>Horseheads New York NY</li>
-        <li>14845</li>
-      </ul>
+      <div class="address-radio">
+          <input type="radio" name="address" checked>
+            <address>
+              <span>303 Browning Lane</span>
+              <span>Horseheads New York NY</span>
+              <span>14845</span>
+            </address>
+        </input>
+
+        <input type="radio" name="address" >
+          <address>
+            <span>〒604-8091</span>
+            <span>Kyoto Japan Nakagyo Ward</span>
+            <span>御池下ル下本能寺前町522</span>
+          </address>
+      </input>
+      <input type="radio" name="address" >
+        <address>
+          <span>Sir Matt Busby Way</span>
+          <span>Stretford Manchester</span>
+          <span>M16 0RA United Kingdom</span>
+        </address>
+    </input>
+
+    </div>
 		</div>
 
 

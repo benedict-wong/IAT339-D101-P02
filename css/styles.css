@@ -448,6 +448,32 @@ ul{
 .profile-notification > ul{
   padding:0;
 }
+.profile-notification > ul >li{
+  margin-bottom: 0.5em;
+}
+
+.profile-billing > ul{
+  margin-top: 0;
+}
+
+
+
+.address-radio{
+  display:flex;
+  flex-flow: row wrap;
+}
+.address-radio >address{
+  margin-right: 2em;
+
+}
+
+
+
+address span{
+  display:block;
+  font-style:normal;
+  padding-left: 1em;
+}
 
 .profile-item{
   padding-right: 0;
@@ -704,7 +730,7 @@ ul{
 }
 @media(max-width: 38em){
   .profile-right{
-    
+
     height:40em;
   }
 }
