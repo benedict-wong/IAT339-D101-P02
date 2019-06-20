@@ -123,11 +123,6 @@
   padding: 1rem;
   flex: 1 1 20%;
   height: 30rem;
-  border-radius: 5px;
-}
-
-.filter-style {
-  display: block;
 }
 
 .catalog-list {
@@ -177,7 +172,7 @@
 }
 
 .item {
-  height: 15rem;
+  height:17em;
   flex: 25%;
 }
 
@@ -220,7 +215,7 @@
   flex:30%;
   align-self: flex-start;
   margin-right: 5em;
-  margin-top: 2em;
+  margin-top:0;
 }
 
 .cart-info-box {
@@ -303,7 +298,8 @@
 }
 
 .about-contact, .about-addresses, .about-faq,
-.news-events {
+.news-events,
+{
   flex: 100%;
   padding: 2rem 4rem;
 }
@@ -315,12 +311,14 @@
 .profile{
   display:flex;
   flex-flow: row nowrap;
+
 }
 
 .profile-right{
   display:flex;
   flex-flow:column nowrap;
   flex: 1 1 auto;
+  height:30em;
 }
 
 .answer {
@@ -351,7 +349,8 @@
 }
 
 .about {
-
+ display: flex;
+ flex-flow: row nowrap;
 }
 .about-navigation, .about-content{
   margin-top: 3em;
@@ -363,10 +362,11 @@
   margin-right: 2em;
 }
 .about-content{
-  display: flex;
-  flex-flow: column nowrap;
+  flex:80%;
   padding-left: 1em;
   padding-right: 1em;
+  height: 45em;
+
 }
 
 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="js/linkTo.js"></script>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>DetailedProductName</title>
+    <script src="js/functions.js"></script>
+
+  </head>
+  <body>
+
+    <header>
+        <!-- logo? -->
+        <div class="header-menu ">
+
+
+          <div class="header-row-1">
+            <img class="nav-main-logo-img" src="img/logoSmall.png" alt="Logo" onclick="pointTo('index.html')"/>
+            <nav class="nav-row-1">
+              <div class="nav-main-item">
+                <a href="profile.html"><img src="img/profile_icon.png"></a>
+                <a href="cart.html"><img src="img/cart_icon.png"></a>
+              </div>
+
+            </nav>
+          </div>
+
+
+          <!-- search bar -->
+          <div class="header-row-2">
+            <input type="text" placeholder="Search here...">
+
+          </div>
+
+          <div class="header-row-3">
+            <nav class="nav-row-3">
+              <a href="catalog.html" class="nav-main-item">Catalog</a>
+              <a href="news.html" class="nav-main-item">News</a>
+
+              <a href="about.html" class="nav-main-item">About</a>
+            </nav>
+          </div>
+
+    </header>
+	<!-- content -->
+	<div class="main-content container product">
+		<!-- detailed product -->
+      <div class="product-left">
+
+        <div class="product-img">
+          <div class="image-file image-1">
+            <img class="image-preview" src="img/item_2_0.png" alt="image 2">
+          </div>
+
+
+          <div class="dot-row">
+            <span class="image-dot dot-1 image-dot-active" onClick="showImageTH(1)"></span>
+            <span class="image-dot dot-2" onClick="showImageTH(2)"></span>
+            <span class="image-dot dot-3" onClick="showImageTH(3)"></span>
+          </div>
+        </div>
+
+        <div class="product-info">
+          <h3>Tottenham Hotspurs 2018/2019 Home Kit</h3>
+          <p>Maecenas porttitor sagittis facilisis. Sed dictum sapien eu quam porttitor vehicula. Duis porttitor id odio sed rutrum. Duis porta mauris justo, sed sagittis diam tristique ac. Nullam id arcu eget mi dictum faucibus id nec velit. Nunc dignissim velit lacus. Morbi eget lorem sapien.</p>
+        </div>
+
+
+
+        <div class="product-review"><h3>Product Reviews</h3>
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">Ronaldinho1980</p>
+              <p class="review-date">June 16, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">Beckham1975</p>
+              <p class="review-date">June 10, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+          <div class="review-item">
+            <div class="review-top-info">
+              <p class="review-username">CR7</p>
+              <p class="review-date">June 10, 2019</p>
+            </div>
+            <div class="review-description">
+              <p>Great product, great design and build quality is top-notch. Highly recommend this product to all fans out there!</p>
+            </div>
+          </div>
+          <div class="review-write">
+            <textarea placeholder="Write a review..."></textarea>
+              <form>
+                <button>Submit Review</button>
+              </form>
+          </div>
+
+
+        </div>
+        <!-- end left -->
+     </div>
+
+      <div class="product-right">
+        <p>Size:</p>
+        <select>
+          <option value="extra-small">XS</option>
+          <option value="small">S</option>
+          <option value="medium">M</option>
+          <option value="large">L</option>
+          <option value="extra-large">XL</option>
+        </select>
+        <p>Quantity:</p>
+        <input type="number" name="quantity" min="1" max="99" value="1">
+        <div class="add-to-cart-button">
+          <a href="cart.html"><button type="button">Add to Cart</button></a>
+        </div>
+      </div>
+
+
+
+	</div>
+
+  </body>
+</html>

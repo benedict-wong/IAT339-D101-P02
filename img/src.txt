@@ -1,3 +1,15 @@
 cart_icon:https://banner2.kisspng.com/20171217/01f/shopping-cart-png-5a364b6d3217e8.4884266315135076932052.jpg
-item_1:https://image2.fanobject.com/mufc-251561.jpg?width=250&height=250&quality=80
+item_1:https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20/251561?categories=football-kits%2Chome-kit
 BPL icons:https://www.premierleague.com/clubs
+
+item_2: https://hqreplicakit.org/product/tottenham-hotspur-third-shirt-2018-2019-kane-10-printing/
+item_3:https://shop.mancity.com/stores/mancity/en/c/football-kits/home-kit-2018-19
+
+item_4:https://fgl.scene7.com/is/image/FGLSportsLtd/332413486_60_a?bgColor=0,0,0,0&fmt=png-alpha&hei=528&resMode=sharp&qlt=85,1&op_sharpen=1
+item_5:https://db3ujbgzkl8k8.cloudfront.net/catalog/product/thumbnail/5f4be06f943fcf2cfae758d47c8f07fa/image/700x700/000/80/d/p/dp6022.png
+item_6:https://images.nike.com/is/image/DotCom/PHN_PS/919009_496_A/2018-19-chelsea-fc-stadium-home-football-shirt.png?fmt=png-alpha
+item_7:https://premierleague-static-files.s3.amazonaws.com/premierleague/photo/2018/07/06/91e3eb21-21a5-44d5-a8ac-ffb85c381628/everton-hk-1819-516x680-1-.png
+item_8:https://premierleague-static-files.s3.amazonaws.com/premierleague/photo/2018/01/31/2b1428b9-6f23-4c46-9c22-7b5cc4b561dd/rdJbYhFe.png
+accessories:https://static1.fanobject.com/stores/manutd/artwork/english/banners/top_nav/top_nav_new_era.jpg
+equipment:https://static1.fanobject.com/stores/manutd/artwork/english/banners/top_nav/top_nav_equipment.jpg
+football:https://static2.fanobject.com/stores/mancity/artwork/english/banners/elitebootroom/nav_dropdown.jpg

@@ -32,8 +32,19 @@ a{
 a, a:visited{
   color:black;
 }
+.newArrivals-link{
+  margin-left: 1.5em;
+  margin-right:2em;
+}
 
 
+.catalog-img{
+  text-align: center;
+}
+.catalog-img img{
+  max-height:4.5em;
+
+}
 
 
 
@@ -50,17 +61,17 @@ a, a:visited{
 .button:active, .button:hover, .button:focus {
 	background-color: rgb(230,136,136);
 }
-.catalog-filter, .catalog-list, .product-left, .product-right{
+.catalog-list, .product-left, .product-right{
   margin-top: 2em;
 }
 .catalog-filter {
-	background-color: rgb(190,96,96);
-  border-right: 1em solid #D2D5D5;
+  margin-top:3em;
+  	background-color: white;
+    box-shadow: 0.5em 0.5em 1em -0.4em;
 }
 
-.catalog-list {
+.catalog-list{
 
-	background-color: rgb(84, 29, 129);
 }
 
 .catalog-list > .item{
@@ -73,6 +84,7 @@ a, a:visited{
 }
 .item > img{
   width:40%;
+
 
 }
 .item > p{
@@ -384,7 +396,7 @@ ul{
 }
 
 .catalog-img {
-	background-color: rgb(200, 200, 200);
+	background-color: white;
 }
 
 .club{
@@ -512,12 +524,21 @@ address span{
   border-bottom: 0.2em solid black;
   width: 90%;
 }
-
-.filter-style {
-	padding: 0.5rem 0;
-	background-color: white;
-  box-shadow: 0.5em 0.5em 1em -0.4em;
+.sort-style, .filter-style{
+  padding: 0.5rem 1em;
 }
+.sort-style ul{
+  padding-left: 0;
+}
+
+
+
+
+.filter-style ul{
+  padding-left: 0;
+}
+
+
 
 
 
@@ -563,6 +584,11 @@ address span{
   .order-list{
 	  margin: 1em 5em;
 	}
+  .catalog-filter{
+    max-width:50%;
+    max-height:300%;
+    margin-right: 2em;
+  }
 
 
 }
@@ -592,9 +618,8 @@ address span{
   	.about-content{
 	  margin:2em 5em;
 	}
-  .catalog-filter {
-    flex: 100%;
-    height: 16rem;
+  .catalog-filter{
+    max-width: 50%;
   }
 }
 
@@ -665,6 +690,7 @@ address span{
 @media (max-width: 41em) {
   .item {
     flex: 100%;
+    min-height:17%;
   }
   .cart {
 
@@ -769,5 +795,8 @@ address span{
   .nav-main-item img{
     width:40%;
     height:auto;
+  }
+  .catalog-filter{
+    min-width:35%;
   }
 }
