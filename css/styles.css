@@ -30,7 +30,7 @@ a{
 
 }
 a, a:visited{
-  color:blue;
+  color:black;
 }
 
 
@@ -50,10 +50,12 @@ a, a:visited{
 .button:active, .button:hover, .button:focus {
 	background-color: rgb(230,136,136);
 }
-
+.catalog-filter, .catalog-list, .product-left, .product-right{
+  margin-top: 2em;
+}
 .catalog-filter {
 	background-color: rgb(190,96,96);
-  border-right: 1em solid #F8EFE4;
+  border-right: 1em solid #D2D5D5;
 }
 
 .catalog-list {
@@ -249,11 +251,8 @@ a, a:visited{
 
 
 
-.about-contact, .about-addresses, .about-faq,
-.news-events,
-.profile-order,
-.profile-security, .profile-notification,
-.profile-billing {
+.about-addresses, .about-faq,
+.news-events{
   border-top: 0.1em solid black;
 }
 
@@ -397,19 +396,68 @@ ul{
 
 #title{
   text-align: center;
+  margin-top: 2em;
 }
 
 
-.about-content, .about-contact, .about-addresses, .about-faq{
+.about-content{
   background-color: white;
-
-
+  margin:2em 15em;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
 }
 
-.about-faq{
-  margin-bottom: 2em;
-  box-shadow: 0 0.5em 0.5em -0.4em;
+
+
+.profile-left, .profile-right{
+    margin-top: 3em;
 }
+
+.profile-left{
+  margin-left: 2em;
+  margin-right: 3em;
+
+}
+.profile-detail >img{
+  margin-left: 1em;
+}
+
+.profile-nav-list > ul{
+  padding-left: 0;
+}
+
+.profile-nav-list > ul >li{
+  margin-bottom: 0.5em;
+  padding: 0.2em;
+  border: 0.01em solid black;
+}
+
+.profile-detail{
+  padding: 1em;
+  margin-right: 2em;
+  background-color: white;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
+}
+
+.profile-right{
+  padding-left: 2em;
+  margin-right: 2.5em;
+  background-color: white;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
+
+}
+.profile-item{
+  padding-right: 0;
+  width:50%;
+}
+
+.section-separator{
+  margin: 0em 1em;
+  overflow:hidden;
+  border-bottom: 0.2em solid black;
+  width: 90%;
+}
+
+
 
 @media only screen and (max-width: 100em){
 

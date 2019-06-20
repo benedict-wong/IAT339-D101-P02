@@ -13,6 +13,7 @@
   flex-flow: column wrap;
 
 
+
 }
 
 
@@ -287,46 +288,37 @@
   margin-top: 0.5em;
 }
 
-
-
 .cart-item {
 
 }
 
-.about-content, .about-contact, .about-addresses, .about-faq,
+.about-contact, .about-addresses, .about-faq,
 .news-events,
-.profile-info, .profile-order,
-.profile-security, .profile-notification,
-.profile-billing {
+{
   flex: 100%;
   padding: 2rem 4rem;
 }
 
-.profile-info {
-  height: 20rem;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem 6rem;
+.profile-item{
+  padding: 1.5em 2em;
 }
 
+.profile{
+  display:flex;
+  flex-flow: row nowrap;
 
+}
 
-.profile-info > img{
+.profile-right{
+  display:flex;
+  flex-flow:column nowrap;
   flex: 1 1 auto;
-
-  background-color: white;
-}
-
-.profile_detail{
-  flex: 1 1 80%;
-  background-color: grey;
+  height:30em;
 }
 
 .answer {
   padding-bottom: 2.5rem;
 }
-
-
 
 .shipping {
   width: 60%;
@@ -352,11 +344,28 @@
 }
 
 .about {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
+ display: flex;
+ flex-flow: row nowrap;
 }
+.about-navigation, .about-content{
+  margin-top: 3em;
+}
+
+
+.about-navigation{
+  flex: 20%;
+  margin-right: 2em;
+}
+.about-content{
+  flex:80%;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 45em;
+
+}
+
+
+
 .order-list-container{
   padding: 0;
 }
@@ -373,7 +382,9 @@
   flex: 100%;
 }
 
-
+.news-updates{
+  margin-top: 2em;
+}
 
 
 /* @media (max-width: 78em) {
