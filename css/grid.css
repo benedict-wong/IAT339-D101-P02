@@ -303,8 +303,7 @@
 }
 
 .about-contact, .about-addresses, .about-faq,
-.news-events,
-{
+.news-events {
   flex: 100%;
   padding: 2rem 4rem;
 }
