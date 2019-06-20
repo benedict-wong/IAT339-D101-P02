@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <title>Catalog</title>
+
+<!-- 
+    w3schools(n.d.). tryhtml_form_checkbox. Retrieved from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_checkbox
+ -->
+
   </head>
   <body>
 
@@ -51,7 +56,19 @@
 	<div class="main-content container">
 		<!-- search and filter -->
     <div class="content-item catalog-filter">
+
       <p>Filter by:</p>
+      <div class="filter-style">
+        <form action="/action_page.php" method="get">
+          <input type="checkbox" name="filter" value="new" checked="checked"> New Arrival<br>
+          <input type="checkbox" name="filter" value="price">Price<br>
+          <input type="checkbox" name="filter" value="size">Size<br>
+          <input type="checkbox" name="filter" value="men">Men<br>
+          <input type="checkbox" name="filter" value="women">Women<br>
+          <input type="checkbox" name="filter" value="kids">Kids<br>
+          <input type="checkbox" name="filter" value="clearance">Clearance<br>
+        </form>  
+      </div>
     </div>
     <!-- catalog list -->
     <div class="content-item catalog-list">

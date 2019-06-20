@@ -458,6 +458,11 @@ ul{
   width: 90%;
 }
 
+.filter-style {
+	padding: 0.5rem;
+	background-color: rgb(245, 245, 245);
+}
+
 
 
 @media only screen and (max-width: 100em){
