@@ -318,7 +318,6 @@
   display:flex;
   flex-flow:column nowrap;
   flex: 1 1 auto;
-  height:30em;
 }
 
 .answer {

@@ -441,13 +441,14 @@ ul{
 .profile-right{
   padding-left: 2em;
   margin-right: 2.5em;
-  background-color: white;
-  box-shadow: 0.5em 0.5em 1em -0.4em;
+
 
 }
 .profile-item{
   padding-right: 0;
   width:50%;
+   background-color: white;
+  box-shadow: 0.5em 0.5em 1em -0.4em;
 }
 
 .section-separator{
