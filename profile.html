@@ -77,9 +77,12 @@
 		<!-- order list -->
       <div class="profile-item profile-info" id="profile-info">
         <h3>Profile Information</h3>
-        <div class="profile-info">      
+        <div class="profile-info">
           <h4>Upload a new profile picture:</h4>
+          <!-- consider implementing a javascript function that parses image and updates profile picture (optional)  -->
           <form action="" id="change-profile-pic">
+            <!-- implemented with help from: https://www.w3schools.com/tags/att_input_accept.asp -->
+
             <input type="file" name="profile-picture" accept="image/*" id="picUpload">
             <input type="submit" value="Upload">
           </form>
@@ -135,6 +138,7 @@
             <span>御池下ル下本能寺前町522</span>
           </address>
       </input>
+      
       <input type="radio" name="address" >
         <address>
           <span>Sir Matt Busby Way</span>
@@ -142,15 +146,8 @@
           <span>M16 0RA United Kingdom</span>
         </address>
     </input>
-
     </div>
 		</div>
-
-
-
-
-
-
 	</div>
 
 

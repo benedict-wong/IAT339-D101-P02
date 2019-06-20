@@ -1,5 +1,5 @@
 // inspiration adapted from: https://www.w3schools.com/howto/howto_js_slideshow.asp
-
+'use strict';
 function showImageMU(x){
   if(x == "1"){
     document.querySelector('.dot-1').className = "image-dot dot-1 image-dot-active"
