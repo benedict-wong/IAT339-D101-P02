@@ -444,6 +444,11 @@ ul{
 
 
 }
+
+.profile-notification > ul{
+  padding:0;
+}
+
 .profile-item{
   padding-right: 0;
   width:100%;
@@ -589,10 +594,15 @@ ul{
     flex-flow: column nowrap;
     align-items: center;
   }
+  .profile-info{
+    padding-right: 1em;
+  }
 
 }
 
+@media(max-width:42em){
 
+  }
 
 @media (max-width: 41em) {
   .item {
@@ -677,14 +687,22 @@ ul{
 	}
 	.profile-right{
 	  padding-left: 0;
+
 	  margin-right: 0;
 	}
+
+
 	.profile-left{
-	  margin-left: 0;
-	  margin-right: 0;
+	  margin-left: 2em;
+	  margin-right: 2em;
 	}
 }
-
+@media(max-width: 38em){
+  .profile-right{
+    
+    height:40em;
+  }
+}
 
 @media(max-width: 35em){
   .nav-row-1{
