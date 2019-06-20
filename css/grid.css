@@ -349,8 +349,7 @@
 }
 
 .about {
- display: flex;
- flex-flow: row nowrap;
+
 }
 .about-navigation, .about-content{
   margin-top: 3em;
@@ -362,11 +361,10 @@
   margin-right: 2em;
 }
 .about-content{
-  flex:80%;
+  display: flex;
+  flex-flow: column nowrap;
   padding-left: 1em;
   padding-right: 1em;
-  height: 45em;
-
 }
 
 

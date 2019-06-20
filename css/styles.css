@@ -495,9 +495,9 @@ ul{
   .card {
     margin:2em 15em;
   }
-  .about {
+/*  .about {
    width: 70%;
-  }
+  }*/
   .order-list{
 	  margin: 1em 5em;
 	}
@@ -527,7 +527,9 @@ ul{
   .club {
     flex: 18%;
   }
-
+  	.about-content{
+	  margin:2em 5em;
+	}
 }
 
 
@@ -586,6 +588,7 @@ ul{
     flex-flow: column nowrap;
     align-items: center;
   }
+
 }
 
 
@@ -664,6 +667,10 @@ ul{
 	.nav-row-1 {
 		margin-left: 1rem;
 	}
+	.about-content{
+	  margin:2em 0;
+	}
+}
 
 
 @media(max-width: 35em){
