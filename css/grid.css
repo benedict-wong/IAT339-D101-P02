@@ -145,6 +145,36 @@
   width: 8rem;
 }
 
+div#MU1920{
+  order:1;
+}
+
+div#TH1819{
+  order:2;
+}
+
+div#MU1819{
+  order:3;
+}
+
+div#MC1819{
+  order:4;
+}
+div#C1819{
+  order:5;
+}
+div#A1718{
+  order:6;
+}
+div#E1819{
+  order:7;
+}
+
+div#MU9800{
+  order:8;
+}
+
+
 .catalog-img {
   height: 4.5rem;
 }

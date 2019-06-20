@@ -3,6 +3,8 @@
   <head>
     <script src="js/linkTo.js">
     </script>
+    <script src="js/functions.js">
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -59,10 +61,10 @@
       <div class="sort-style">
         <p>Sort by: </p>
         <ul>
-          <li><input type="radio" name="sort" value="time" checked>Arrival: Newest to Oldest</li>
-          <li><input type="radio" name="sort" value="time">Arrival: Oldest to Newest</li>
-          <li><input type="radio" name="sort" value="price">Price: Low to High</li>
-          <li><input type="radio" name="sort" value="price">Price: High to Low</li>
+          <li><input type="radio" name="sort" value="time" onclick="sortBy(1)">Arrival: Newest to Oldest</li>
+          <li><input type="radio" name="sort" value="time" onclick="sortBy(2)">Arrival: Oldest to Newest</li>
+          <li><input type="radio" name="sort" value="price" onclick="sortBy(3)">Price: Low to High</li>
+          <li><input type="radio" name="sort" value="price" onclick="sortBy(4)">Price: High to Low</li>
         </ul>
       </div>
 
@@ -80,24 +82,24 @@
     </div>
     <!-- catalog list -->
     <div class="content-item catalog-list">
-      <div onclick="pointTo('detailedProductMU.html')" class="item">
+      <div onclick="pointTo('detailedProductMU.html')" class="item " id= "MU1920">
 
       <img src="img/item_1_0.png" alt="item_1_0"/><p class="item_name">Manchester United</p><p>2019-2020 Home Kit</p>
       <p class="price">$109.99</p>
       </div>
-      <div onclick="pointTo('detailedProductTH.html')" class="item"><img src="img/item_2_0.png" alt="Tottenham Hotspurs 2019 Third Kit"/><p class="item_name">Tottenham Hotspur</p><p>2018-2019 Third Kit</p>
+      <div onclick="pointTo('detailedProductTH.html')" class="item " id= "TH1819"><img src="img/item_2_0.png" alt="Tottenham Hotspurs 2019 Third Kit"/><p class="item_name">Tottenham Hotspur</p><p>2018-2019 Third Kit</p>
       <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_3.png" alt="Manchester City 2018-2019 Home Kit"/><p class="item_name">Manchester City</p><p>2018-2019 Home Kit</p>
+      <div class="item" id= "MC1819"><img src="img/item_3.png" alt="Manchester City 2018-2019 Home Kit"/><p class="item_name">Manchester City</p><p>2018-2019 Home Kit</p>
       <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_4.png" alt="Arsenal 2017-2018 Home Kit"/><p class="item_name">Arsenal</p><p>2017-2018 Home Kit</p>
+      <div class="item " id= "A1718"><img src="img/item_4.png" alt="Arsenal 2017-2018 Home Kit"/><p class="item_name">Arsenal</p><p>2017-2018 Home Kit</p>
+      <p class="price">$79.99</p></div>
+      <div class="item " id= "MU1819"><img src="img/item_5.png" alt="Manchester United 2018/2019 Third Kit"/><p class="item_name">Manchester United</p><p>2018-2019 Third Kit</p>
       <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_5.png" alt="Manchester United 2018/2019 Third Kit"/><p class="item_name">Manchester United</p><p>2018-2019 Third Kit</p>
+      <div class="item " id= "C1819"><img src="img/item_6.png" alt="Chelsea 2018/2019 Home Kit"/><p class="item_name">Chelsea</p><p>2018-2019 Home Kit</p>
       <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_6.png" alt="Chelsea 2018/2019 Home Kit"/><p class="item_name">Chelsea</p><p>2018-2019 Home Kit</p>
+      <div class="item " id= "E1819"><img src="img/item_7.png" alt="Everton 2018/2019 Home Kit"/><p class="item_name">Everton</p><p>2018-2019 Home Kit</p>
       <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_7.png" alt="Everton 2018/2019 Home Kit"/><p class="item_name">Everton</p><p>2018-2019 Home Kit</p>
-      <p class="price">$109.99</p></div>
-      <div class="item"><img src="img/item_8.png" alt="Manchester United 1998/1999 Home Kit"/><p class="item_name">Manchester United</p><p>1998-1999 Home Kit</p>
+      <div class="item " id= "MU9800"><img src="img/item_8.png" alt="Manchester United 1998/2000 Home Kit"/><p class="item_name">Manchester United</p><p>1998-1999 Home Kit</p>
       <p class="price">$159.99</p></div>
     </div>
 

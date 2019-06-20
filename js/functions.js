@@ -56,6 +56,59 @@ function showImageTH(x){
 
 }
 
+
+function sortBy(key){
+  if(key == '1'){
+    // New to Old
+    document.getElementById('MU1920').style.order="1"
+    document.getElementById('MU1819').style.order="2"
+    document.getElementById('TH1819').style.order="3"
+    document.getElementById('MC1819').style.order="4"
+    document.getElementById('C1819').style.order="5"
+    document.getElementById('E1819').style.order="6"
+    document.getElementById('A1718').style.order="7"
+    document.getElementById('MU9800').style.order="8"
+  }
+
+  else if(key == '2'){
+    // Old to New
+    document.getElementById('MU9800').style.order="1"
+    document.getElementById('A1718').style.order="2"
+    document.getElementById('MU1819').style.order="3"
+    document.getElementById('TH1819').style.order="4"
+    document.getElementById('MC1819').style.order="5"
+    document.getElementById('C1819').style.order="6"
+    document.getElementById('E1819').style.order="7"
+    document.getElementById('MU1920').style.order="8"
+
+
+  }
+  else if(key == '3'){
+    // Low to High
+    document.getElementById('A1718').style.order="1"
+    document.getElementById('MU1819').style.order="2"
+    document.getElementById('TH1819').style.order="3"
+    document.getElementById('MC1819').style.order="4"
+    document.getElementById('C1819').style.order="5"
+    document.getElementById('E1819').style.order="6"
+    document.getElementById('MU1920').style.order="7"
+    document.getElementById('MU9800').style.order="8"
+
+  }
+  else if(key == '4'){
+    // High to Low
+    document.getElementById('MU9800').style.order="1"
+    document.getElementById('MU1819').style.order="2"
+    document.getElementById('TH1819').style.order="3"
+    document.getElementById('MC1819').style.order="4"
+    document.getElementById('C1819').style.order="5"
+    document.getElementById('E1819').style.order="6"
+    document.getElementById('MU1920').style.order="7"
+    document.getElementById('A1718').style.order="8"
+
+  }
+}
+
 // function changeProfileImg(){
 //   var val = document.getElementById('picUpload').value;
 //   if(val){
