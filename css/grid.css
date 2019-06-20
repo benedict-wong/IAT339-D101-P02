@@ -36,7 +36,6 @@
 .nav-row-1 {
   margin-left: auto;
   margin-right: 1.5em;
-  width: 5rem;
 }
 
 .nav-main-item {
@@ -98,14 +97,10 @@
 
 
 
-<<<<<<< HEAD
 .nav-main-item img{
   padding-right: 0.5em;
 
 }
-=======
-
->>>>>>> 7eb0d79861f07451ed40c674841cf2b9c59cb798
 
 .main-content {
   padding-top: 12em;
