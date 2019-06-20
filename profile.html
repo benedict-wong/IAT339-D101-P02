@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
+
     <title>Profile</title>
   </head>
   <body>
@@ -21,8 +22,12 @@
           <div class="header-row-1">
             <img class="nav-main-logo-img" src="img/logoSmall.png" alt="Logo" onclick="pointTo('index.html')"/>
             <nav class="nav-row-1">
-              <a href="profile.html" class="nav-main-item"><img src="img/profile_icon.png"></a>
-              <a href="cart.html" class="nav-main-item"><img src="img/cart_icon.png"></a>
+              <div class="nav-main-item">
+                <a href="profile.html"><img src="img/profile_icon.png"></a>
+              </div>
+              <div class="nav-main-item">
+                <a href="cart.html"><img src="img/cart_icon.png"></a>
+              </div>
 
             </nav>
           </div>
@@ -48,33 +53,50 @@
 	<!-- content -->
 	<div class="main-content container profile">
 		<!-- profile information -->
-		<div class="content-item profile-info">
-      <img src="img/mourinho.png" alt=""/>
-      <div class="profile_detail">
-        <h3>Profile info</h3>
+
+      <div class='profile-left profile-nav'>
+
+        <div class="profile-detail">
+          <img src="img/tomatoicon.png" alt=""/>
+          <h3 id="username">Sanada-Yukimura</h3>
+          <p id="birthday">Birthday: 03/06/1969</p>
+          <p id="phone">Phone # : (778)123-1234</p>
+
+
+
+        </div>
       </div>
 
+    <div class="profile-right">
 
 		<!-- order list -->
-		<div class="content-item profile-order">
-      <h3>Order list</h3>
-      <div><a href="orderList.html">Order list</a></div>
-		</div>
+      <div class="profile-item profile-info" id="profile-info">
+        <h3>Profile Information</h3>
 
-		<!-- security -->
-		<div class="content-item profile-security">
-      <h3>Security Info</h3>
-		</div>
+      </div>
+      <div class="section-separator"></div>
+      <!-- security -->
+      <div class="profile-item profile-security">
+        <h3>Security Information</h3>
 
-		<!-- notification -->
-		<div class="content-item profile-notification">
-      <h3>Notification</h3>
-		</div>
+      </div>
+      <div class="section-separator"></div>
+      <!-- billing information -->
+      <div class="profile-item profile-billing">
+        <h3>Billing Information</h3>
+      </div>
+      <div class="section-separator"></div>
+      <div class="profile-item profile-order">
+        <h3>Order list</h3>
+        <div><a href="orderList.html">Your Orders</a></div>
+  		</div>
 
-		<!-- billing information -->
-		<div class="content-item profile-billing">
-      <h3>Billing info</h3>
-		</div>
+    </div>
+
+
+
+
+
 
 	</div>
 
