@@ -665,6 +665,14 @@ ul{
 		margin-left: 1rem;
 	}
 
+<<<<<<< HEAD
+=======
+	.nav-main-item {
+	  width:60%;
+	  height: auto;
+	}
+
+>>>>>>> 7eb0d79861f07451ed40c674841cf2b9c59cb798
 
 @media(max-width: 35em){
   .nav-row-1{
