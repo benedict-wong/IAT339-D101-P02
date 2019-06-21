@@ -53,6 +53,7 @@
               <a href="about.html" class="nav-main-item">About</a>
             </nav>
           </div>
+        </div>
 
     </header>
 
@@ -60,35 +61,14 @@
 	<div class="main-content container profile">
 		<!-- profile information -->
 
-      <div class='profile-left profile-nav'>
 
-        <div class="profile-detail">
-          <img src="img/tomatoicon.png" alt="" class="profile-picture"/>
-          <h3 id="username">Sanada-Yukimura</h3>
-          <p id="birthday">Birthday: 03/06/1969</p>
-          <p id="phone">Phone # : (778)123-1234</p>
-
-
-
-        </div>
-      </div>
 
     <div class="profile-right">
 
 		<!-- order list -->
       <div class="profile-item profile-info" id="profile-info">
-        <h3>Profile Information</h3>
-        <div class="profile-info">
-          <h4>Upload a new profile picture:</h4>
-          <!-- consider implementing a javascript function that parses image and updates profile picture (optional)  -->
-          <form action="" id="change-profile-pic">
-            <!-- implemented with help from: https://www.w3schools.com/tags/att_input_accept.asp -->
-
-            <input type="file" name="profile-picture" accept="image/*" id="picUpload">
-            <input type="submit" value="Upload">
-          </form>
-
-        </div>
+        <h3>Account Settings</h3>
+        
 
 		<!-- security -->
 		<div class="content-item profile-security">
@@ -124,32 +104,38 @@
 		<div class="content-item profile-billing">
       <h3>Billing info</h3>
       <div class="address-radio">
+        <form>
           <input type="radio" name="address" checked>
             <address>
               <span>303 Browning Lane</span>
               <span>Horseheads New York NY</span>
               <span>14845</span>
             </address>
-        </input>
+            </form>
 
+        <form>
         <input type="radio" name="address" >
           <address>
             <span>〒604-8091</span>
             <span>Kyoto Japan Nakagyo Ward</span>
             <span>御池下ル下本能寺前町522</span>
           </address>
-      </input>
+          </form>
 
+      <form>
       <input type="radio" name="address" >
         <address>
           <span>Sir Matt Busby Way</span>
           <span>Stretford Manchester</span>
           <span>M16 0RA United Kingdom</span>
         </address>
-    </input>
+      </form>
+
     </div>
 		</div>
 	</div>
+</div>
+</div>
 
 
 

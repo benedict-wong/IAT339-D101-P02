@@ -1,0 +1,24 @@
+<div class='profile-left profile-nav'>
+
+  <div class="profile-detail">
+    <img src="img/tomatoicon.png" alt="" class="profile-picture"/>
+    <h3 id="username">Sanada-Yukimura</h3>
+    <p id="birthday">Birthday: 03/06/1969</p>
+    <p id="phone">Phone # : (778)123-1234</p>
+
+
+
+  </div>
+</div>
+
+<div class="profile-info">
+  <h4>Upload a new profile picture:</h4>
+  <!-- consider implementing a javascript function that parses image and updates profile picture (optional)  -->
+  <form action="" id="change-profile-pic">
+    <!-- implemented with help from: https://www.w3schools.com/tags/att_input_accept.asp -->
+
+    <input type="file" name="profile-picture" accept="image/*" id="picUpload">
+    <input type="submit" value="Upload">
+  </form>
+
+</div>

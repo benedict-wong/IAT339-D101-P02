@@ -24,6 +24,7 @@ header{
 
 body{
   background-color: #D2D5D5;
+  height:100%;
 }
 
 p {
@@ -433,6 +434,7 @@ ul{
 .profile-left{
   margin-left: 2em;
   margin-right: 0;
+  flex:15%;
 
 }
 .profile-detail >img{
@@ -459,7 +461,7 @@ ul{
 .profile-right{
   padding-left: 2em;
   margin-right: 2.5em;
-
+  flex:85%;
 
 }
 
@@ -470,6 +472,10 @@ ul{
 .password-change{
   display:block;
 }
+.change-password input{
+  border: 0.1em solid black;
+}
+
 .change-password > ul{
   margin-top: 0;
   padding-left: 0;
@@ -499,11 +505,15 @@ ul{
 }
 
 
-
 .address-radio{
   display:flex;
   flex-flow: row wrap;
 }
+
+.address-radio form{
+  margin-bottom: 1em;
+}
+
 .address-radio >address{
   margin-right: 2em;
   margin-bottom: 1em;
@@ -532,8 +542,12 @@ address span{
   width: 90%;
 }
 .sort-style, .filter-style{
-  padding: 0.5rem 1em;
+  padding: 0rem 1em;
 }
+.sort-style p{
+  margin-top: 0;
+}
+
 .sort-style ul{
   padding-left: 0;
 }
@@ -545,8 +559,9 @@ address span{
   padding-left: 0;
 }
 
-
-
+#profile-info{
+  margin-bottom: 3em;
+}
 
 
 @media only screen and (max-width: 100em){
@@ -564,9 +579,18 @@ address span{
   }
   .club{
     flex:18%;
+  }
 
 
 
+}
+
+@media(max-width:86em){
+  .profile-left{
+    flex:20%;
+  }
+  .catalog-filter{
+    height:18em;
   }
 
 }
@@ -593,12 +617,18 @@ address span{
 	  margin: 1em 5em;
 	}
   .catalog-filter{
-    max-width:50%;
-    max-height:300%;
+    max-width:20%;
+    
     margin-right: 2em;
   }
 
 
+}
+
+@media (max-width:71em){
+  .profile-left{
+    flex:25%;
+  }
 }
 
 
@@ -631,7 +661,9 @@ address span{
   }
 }
 
+@media(max-width:59em){
 
+}
 
 
 @media only screen and (max-width: 58em){
@@ -689,6 +721,7 @@ address span{
   .profile-info{
     padding-right: 1em;
   }
+
 
 }
 
@@ -810,15 +843,29 @@ address span{
   }
 }
 
+@media(max-width: 25em){
+  .change-password ul >li{
+    text-align: left;
+  }
+  .change-password ul > li > label{
+    padding-right: 5em;
+  }
+  #pic
+
+
+}
+
 @media(max-width:22em){
   .nav-row-1{
     margin-left: 0;
-
-
   }
+  .catalog-filter{
+    height:
+  }
+
 }
 
-@media(max-width:20em){
+@media(max-width:21em){
   .nav-main-item{
     max-width: 4em;
   }
