@@ -109,6 +109,7 @@
   padding-right: 1em;
   display: flex;
   flex-wrap: wrap;
+  transition: padding-top 0.5s;
 
   justify-content: center;
   align-self: center;
@@ -419,6 +420,9 @@ div#MU9800{
 }
 
 .news-updates{
+  margin-top: 2em;
+}
+.shipping, .payment{
   margin-top: 2em;
 }
 
