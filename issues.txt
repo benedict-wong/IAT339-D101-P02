@@ -1,1 +1,8 @@
 iphone 5/SE configuration: detailedproduct content goes outside of boxes.
+
+things to consider
+- information in about page and profile could be more so the text wont be too close to the edge
+- can have the main content in the profile page (profile left and right) to be centred in the page, so profile-right would not take up too much space, hence a lot of blank space
+- in normal mode, when scroll down and scroll back up, the header would not re-appear
+- can consider putting links in the shop by club in home page, that navigate to the catalog page
+- in catalog page, the height of the sort box may be too high
