@@ -109,6 +109,17 @@ function sortBy(key){
   }
 }
 
+function updatePrefs(x){
+  if(x =="1"){
+    document.querySelector(".passwordUpdate").style.display="block";
+  }
+  else{
+  document.querySelector(".updateMessage").style.display="block";
+  }
+}
+
+
+
 // function changeProfileImg(){
 //   var val = document.getElementById('picUpload').value;
 //   if(val){

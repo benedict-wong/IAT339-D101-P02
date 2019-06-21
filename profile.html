@@ -68,7 +68,7 @@
 		<!-- order list -->
       <div class="profile-item profile-info" id="profile-info">
         <h3>Account Settings</h3>
-        
+
 
 		<!-- security -->
 		<div class="content-item profile-security">
@@ -77,12 +77,13 @@
       <div class="change-password">
         <h4>Change Password:</h4>
         <ul>
-        <li><label>Current Password: </label><input type="text"></li>
+        <li><label>Current Password: </label><input type="text" ></li>
         <li><label>New Password: </label><input type="text"></li>
         <li><label>Retype Password: </label><input type="text"></li>
       </ul>
       <div class="clear-float">
-        <button>Save Changes</button>
+        <p class="passwordUpdate">Your password has been changed!</p>
+        <button onclick="updatePrefs(1)">Save Changes</button>
       </div>
 
       </div>
@@ -96,7 +97,8 @@
           <li><input type="checkbox" name="newsletter" value="sub-newsletter" checked> Subscribe to our newsletter.</li>
           <li><input type="checkbox" name="admin-email" value="admin-email" checked> Receive e-mails from admins.</li>
           <li><input type="checkbox" name="profile-pub" value="profile-public"> Allow other users to see my profile.</li>
-          <li><button>Update</button></li>
+          <li><p class="updateMessage">Your notification preferences have been updated!</p></li>
+          <li><button onclick="updatePrefs(2)">Update</button></li>
         </ul>
 		</div>
 
