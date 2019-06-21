@@ -7,3 +7,4 @@ things to consider
 - can consider putting links in the shop by club in home page, that navigate to the catalog page
 - in catalog page, the height of the sort box may be too high
 - image in detailed product page were not able to resize when the screen gets too small, ie iPhone 5 size, t-shirt would be out of bound
+- there is no scrolling for header in shipping and payment page
