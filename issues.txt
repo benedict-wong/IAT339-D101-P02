@@ -9,3 +9,9 @@ things to consider
 - choose size in detail product list becomes too narrow in mobile version
 - text go out of box in about page when window size gone narrower
 - text go out of the box in product reviews in detailed product list
+
+
+
+new
+- profile page is not responsive anymore
+- the width of sort in catalog page (at about 1000px wide) maybe too narrow
