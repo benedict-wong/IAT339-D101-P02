@@ -2,12 +2,9 @@ iphone 5/SE configuration: detailedproduct content goes outside of boxes.
 
 things to consider
 - information in about page and profile could be more so the text wont be too close to the edge
-- can have the main content in the profile page (profile left and right) to be centred in the page, so profile-right would not take up too much space, hence a lot of blank space
 
-- can consider putting links in the shop by club in home page, that navigate to the catalog page
-- in catalog page, the height of the sort box may be too high
+
 - image in detailed product page were not able to resize when the screen gets too small, ie iPhone 5 size, t-shirt would be out of bound
-- there is no scrolling for header in shipping and payment page
 - sort list in catalog may become too narrow in mobile version
 - choose size in detail product list becomes too narrow in mobile version
 - text go out of box in about page when window size gone narrower
