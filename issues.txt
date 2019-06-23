@@ -8,6 +8,7 @@ things to consider
 - sort list in catalog may become too narrow in mobile version
 - choose size in detail product list becomes too narrow in mobile version
 - text go out of box in about page when window size gone narrower
+(will fix this by adding in drop downs)
 - text go out of the box in product reviews in detailed product list
 
 
