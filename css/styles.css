@@ -448,9 +448,11 @@ ul{
 }
 
 .profile-item{
-  padding-right: 0;
-  width:65%;
+  padding: 2em 3em;
+  padding-left: 2em;
+  min-width:85%;
   margin-top: 5em;
+
 
   background-color: white;
   box-shadow: 0.5em 0.5em 1em -0.4em;
@@ -462,12 +464,6 @@ ul{
 
 
 
-.profile-left{
-  margin-left: 2em;
-  margin-right: 0;
-  flex:15%;
-
-}
 .profile-detail >img{
   margin-left: 1em;
 }
@@ -497,25 +493,13 @@ ul{
   border:0.01em solid grey;
 }
 
-.password-change{
-  display:block;
-}
-.change-password input{
-  border: 0.1em solid black;
-}
-
-.change-password > ul{
-  margin-top: 0;
+.change-password ul{
   padding-left: 0;
-  float:left;
+}
 
-}
-.change-password >ul>li{
-  margin-bottom: 0.5em;
-  text-align: right;
-}
-.clear-float{
-  clear:both;
+fieldset{
+  margin-bottom: 1.5em !important;
+  display:inline-block;
 }
 
 .profile-notification h3{
@@ -780,8 +764,10 @@ address span{
 
 }
 
-@media(max-width:42em){
-
+@media(max-width:48em){
+  .profile-right{
+    margin: auto 6em;
+  }
   }
 
 @media (max-width: 41em) {
@@ -868,7 +854,7 @@ address span{
 	}
 	.profile-right{
 	  padding-left: 0;
-
+    margin-left: 0;
 	  margin-right: 0;
 	}
 

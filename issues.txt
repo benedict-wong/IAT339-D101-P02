@@ -13,5 +13,5 @@ things to consider
 
 
 new
-- profile page is not responsive anymore
+
 - the width of sort in catalog page (at about 1000px wide) maybe too narrow
