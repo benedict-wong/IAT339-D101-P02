@@ -3,3 +3,8 @@ issues all done!
 
 things to do:
 make thematic colors consistent.
+
+
+23-06:
+- home page no longer responsive
+- (minor) payment page address bar in billing address would extend be beyond the content container
