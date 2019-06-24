@@ -328,9 +328,8 @@ ul{
     overflow:auto;
     z-index: 1;
     margin-bottom: 1.5em;
-
-    width:20%;
-    max-width: 20%;
+    max-width:50%;
+    min-width:30%;
 }
 
 .product-img {
@@ -339,6 +338,11 @@ ul{
 
 .product-info {
 	background-color: white;
+
+}
+
+.product-info p+p{
+  overflow:auto;
 }
 
 .product-review {
@@ -361,8 +365,8 @@ ul{
   background-color: white;
   overflow:auto;
   z-index: 1;
-  max-width: 50%;
-  width:50%;
+  max-width: 35em;
+  min-width:5em;
   max-height: 15%;
 }
 .review-top-info{
@@ -437,6 +441,10 @@ ul{
   background-color: white;
   margin:2em 20em;
   box-shadow: 0.5em 0.5em 1em -0.4em;
+  overflow:auto;
+}
+.about-content ul{
+  padding-left: 0;
 }
 
 .profile-right{
@@ -698,6 +706,10 @@ address span{
   .catalog-filter{
     height:15em;
   }
+  .product-right{
+
+  }
+
 }
 
 
@@ -767,9 +779,14 @@ address span{
 
 @media(max-width:48em){
   .profile-right{
-    margin: auto 6em;
+    margin: auto 0em;
+    padding-left: 0;
   }
-  }
+}
+
+
+
+}
 
 @media (max-width: 41em) {
   .item {
@@ -870,6 +887,9 @@ address span{
 
     height:40em;
   }
+  .card{
+    margin: 2em 1em;
+  }
 }
 
 @media(max-width: 35em){
@@ -891,9 +911,33 @@ address span{
   .index-category a{
     font-size: 0.9em;
   }
+  .product-review{
+    margin-top: 5em;
+  }
 }
 
+@media(max-width:33em){
+  .about-content{
+    margin: 2em 1em;
+  }
+}
 
+@media(max-width:31em){
+  .product-left{
+    margin-left: 0;
+    margin-right: 0;
+    flex:100%;
+  }
+
+
+}
+
+@media(max-width:29em){
+  .review-username, .review-date{
+    float:none;
+  }
+
+}
 
 @media(max-width: 25em){
   .change-password ul >li{
@@ -901,6 +945,21 @@ address span{
   }
   .change-password ul > li > label{
     padding-right: 5em;
+  }
+  .image-dot{
+    margin: 0 0.5em;
+    margin-top:1em;
+  }
+
+  .product-review{
+    margin-top: 12em;
+  }
+  .card{
+    margin: 2em 0em;
+    padding-bottom: 0;
+  }
+  .about-content{
+    margin: 2em 0;
   }
 
 
@@ -928,11 +987,22 @@ address span{
   .catalog-filter{
     height:
   }
+  .product-img{
+    padding-left: 0.1em;
+  }
+
+
+  .review-item{
+    margin-left: 0.5em;
+  }
 
 }
 
 @media(max-width:21em){
   .nav-main-item{
     max-width: 4em;
+  }
+  .product-right{
+    padding-left: 1em;
   }
 }

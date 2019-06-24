@@ -1,18 +1,6 @@
-iphone 5/SE configuration: detailedproduct content goes outside of boxes.
-
-things to consider
-- information in about page and profile could be more so the text wont be too close to the edge
+issues all done!
 
 
-- image in detailed product page were not able to resize when the screen gets too small, ie iPhone 5 size, t-shirt would be out of bound
-- sort list in catalog may become too narrow in mobile version
-- choose size in detail product list becomes too narrow in mobile version
-- text go out of box in about page when window size gone narrower
-(will fix this by adding in drop downs)
-- text go out of the box in product reviews in detailed product list
+things to do:
 
-
-
-new
-
-- the width of sort in catalog page (at about 1000px wide) maybe too narrow
+make thematic colors consistent.
