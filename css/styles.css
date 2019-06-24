@@ -881,7 +881,6 @@ address span{
 	  margin-right: 0;
 	}
 
-
 	.profile-left{
 	  margin-left: 2em;
 	  margin-right: 2em;
@@ -905,6 +904,10 @@ address span{
     margin-left: 0.2em;
     max-height:75%;
   }
+  .club{
+    flex:33%;
+  }
+
   .catalog-filter{
     min-width:35%;
   }
