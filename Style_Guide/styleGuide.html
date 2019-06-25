@@ -163,27 +163,27 @@
             <p>The following button combines all the code above. However, since we do not have a news html file, this button will instead link back to the top of this section:</p>
             <button class="header-nav-button" onclick="linkTo('#button-elements')">Header Button</button>
 
-            <h4> Social Media/Contact Buttons </h4>
-            <p> The Social Media/Contact buttons, on the other hand, are circular. Therefore, we cannot simply use the rectangular button style and must style the button to be rounded instead. The HTML and JavaScript code is the same, therefore we only show the CSS code since the CSS is the only thing that we need to change.
+            <h4> Other Buttons </h4>
+            <p> The HTML is the same, therefore we only show the CSS code since the CSS is the only thing that we need to change.
 
             <pre><code>
-                .circular-button{
-                  border-radius: 100%;
-                  background-color: #32ABDC;
-                  color:white;
-                  border: 0.5em solid black;
-                  transition: background 0.8s  ease-out;
+              .button {
+                color: rgb(248, 239, 228);
+                text-decoration: none;
+                transition: background-color 0.5s ease-out;
+                background-color: #952424;
+                padding: 1rem;
+                margin-bottom: 1em;
+              }
 
-                }
 
-                .circular-button:hover{
-                  background-color:grey;
-
-                }
+              .button:active, .button:hover, .button:focus {
+                background-color: rgb(230,136,136);
+              }
             </code></pre>
 
-            <h4>Social Media/Contact Buttons: Putting it all together</h4>
-            <p> The button below shows a circular button that links back to the top of the section:</p>
+            <h4>Other Buttons: Putting it all together</h4>
+            <p> The button below shows a button that links back to the top of the section:</p>
             <button class="circular-button" onclick="linkTo('#button-elements')">Header Button</button>
 
 

@@ -84,6 +84,7 @@ a, a:visited{
 .button:active, .button:hover, .button:focus {
 	background-color: rgb(230,136,136);
 }
+
 .catalog-list, .product-left, .product-right{
   margin-top: 2em;
 }
