@@ -36,6 +36,7 @@
           <!-- search bar -->
           <div class="header-row-2">
             <input type="text" placeholder="Search here...">
+            <img onclick="pointTo('catalog.html')" src="img/search-icon.png"/>
 
           </div>
 
@@ -62,7 +63,7 @@
         <li>⠀</li>
         <li><label for="lastname">Last name:</label>
         <input type="text" name="lastname" placeholder="Last Name"></li>
-        <li>⠀</li>
+        <h4>Enter a new address: </h4>
         <li><label>Shipping address:</label>
         <li><input type="text" name="street" placeholder="Address" size="20"></li>
         <li>⠀</li>
@@ -73,10 +74,41 @@
         <input type="text" name="country" placeholder="Country">
         </li>
       </ul>
-      <ul>
         <input type="submit" value="Submit" >
-      </ul>
       </form>
+      <form action="payment.html" method="POST">
+      <h4>Or pick an existing address: </h4>
+      <div class="address-radio">
+        <div>
+          <input type="radio" name="test" checked>
+            <address>
+              <span>303 Browning Lane</span>
+              <span>Horseheads New York NY</span>
+              <span>14845</span>
+            </address>
+          </div>
+          <div>
+        <input type="radio" name="test" >
+          <address>
+            <span>〒604-8091</span>
+            <span>Kyoto Japan Nakagyo Ward</span>
+            <span>御池下ル下本能寺前町522</span>
+          </address>
+        </div>
+        <div>
+      <input type="radio" name="test" >
+        <address>
+          <span>Sir Matt Busby Way</span>
+          <span>Stretford Manchester</span>
+          <span>M16 0RA United Kingdom</span>
+        </address>
+        </div>
+      </form>
+    </div>
+    <form action="payment.html" method="POST">
+    <input type="submit" value="Submit" >
+    </form>
+
 
     </div>
 	</div>

@@ -50,7 +50,6 @@
   flex:1 1 auto;
   width:50%;
   align-self: center;
-  padding: 0.1em;
   padding-left: 0.5em;
   border: 0.1em solid black;
   margin: 1em 0;
@@ -61,8 +60,14 @@
   outline:none;
   border:0;
   margin: 0.3em 0;
-  width:99%;
+  margin-top: 0.6em;
+  width:95%;
   height:100%;
+}
+.header-row-2 img{
+
+  padding:0.5em;
+  background-color: #541D81;
 }
 
 .header-row-3{
@@ -86,14 +91,14 @@
 
 
 .nav-row-3 a:first-child{
-  border-left: 0.1em solid white;
+  /* border-left: 0.1em solid white; */
   border-right: 0.1em solid white;
 }
 
 .nav-row-3 a:last-child{
   padding-right: 7.2vw;
   border-left: 0.1em solid white;
-  border-right: 0.1em solid white;
+  /* border-right: 0.1em solid white; */
 }
 
 
@@ -131,6 +136,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
+
   flex: 1 1 80%;
 }
 
@@ -179,6 +185,14 @@ div#MU9800{
 
 .catalog-img {
   height: 4.5rem;
+
+
+}
+
+.catalog-img img{
+  width:80%;
+  overflow:hidden
+
 }
 
 .section-club {

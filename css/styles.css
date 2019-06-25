@@ -46,25 +46,39 @@ a, a:visited{
 }
 
 
-.catalog-img{
+
+
+
+
+.new-arrival-item{
+  /* background-image: url(../img/chrome_texture.png); */
+  background-color: rgb(37, 51, 65, 0.9);
+  height:13em;
+  width:13em;
   text-align: center;
+  padding-top: 1.35em;
 }
-.catalog-img img{
-  max-height:4.5em;
-
+.new-arrival-item img{
+  max-width:8em;
 }
-
-
-
+.new-arrival-item p{
+  background-color: white;
+  padding:0.5em;
+}
+.container-home h3{
+  margin-top: 8em;
+}
 
 
 .button {
 	color: rgb(248, 239, 228);
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
-	background-color: rgb(95,102,112);
+	background-color: #952424;
 	padding: 1rem;
+  margin-bottom: 1em;
 }
+
 
 .button:active, .button:hover, .button:focus {
 	background-color: rgb(230,136,136);
@@ -170,6 +184,7 @@ a, a:visited{
 }
 .club{
   transition: background-color 0.5s ease-out;
+
 }
 
 
@@ -334,7 +349,7 @@ ul{
     z-index: 1;
     margin-bottom: 1.5em;
     max-width:50%;
-    min-width:30%;
+
 }
 
 .product-img {
@@ -393,10 +408,11 @@ ul{
   text-align: center;
 }
 
-.review-write > textarea{
+.review-write  textarea{
   flex: 1 1 auto;
-  width:44vw;
+  width: 35em;
   height:20em;
+  box-sizing: border-box;
 
 }
 
@@ -509,6 +525,7 @@ ul{
 
 .change-password ul{
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 fieldset{
@@ -531,6 +548,7 @@ fieldset{
 .updateMessage, .passwordUpdate{
   color:red;
   display:none;
+  margin-top: 0;
 }
 
 
@@ -547,6 +565,7 @@ fieldset{
 
 .address-radio form{
   margin-bottom: 1em;
+
 }
 
 .address-radio >address{
@@ -687,6 +706,9 @@ address span{
     justify-content: center;
 
   }
+  .product-right{
+    min-width:30%;
+  }
   .product-img{
     flex:35%;
   }
@@ -778,6 +800,10 @@ address span{
     margin-left: 2em;
     max-width: 100%;
   }
+  .review-write textarea{
+    width:25em;
+
+  }
 
 
 }
@@ -787,6 +813,9 @@ address span{
     margin: auto 0em;
     padding-left: 0;
   }
+
+
+
 }
 
 
@@ -794,6 +823,9 @@ address span{
 }
 
 @media (max-width: 41em) {
+
+
+
   .item {
     flex: 100%;
     min-height:17%;
@@ -885,6 +917,8 @@ address span{
 	  margin-left: 2em;
 	  margin-right: 2em;
 	}
+
+
 }
 @media(max-width: 38em){
   .profile-right{
@@ -893,6 +927,11 @@ address span{
   }
   .card{
     margin: 2em 1em;
+  }
+
+  .review-write textarea{
+    width:20em;
+
   }
 }
 
@@ -943,6 +982,10 @@ address span{
 @media(max-width:29em){
   .review-username, .review-date{
     float:none;
+  }
+  .review-write textarea{
+    width:15em;
+
   }
 
 }
@@ -1004,6 +1047,11 @@ address span{
     margin-left: 0.5em;
   }
 
+  .review-write textarea{
+
+    width:10em;
+
+  }
 }
 
 @media(max-width:21em){
