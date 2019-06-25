@@ -533,6 +533,10 @@ fieldset{
   display:inline-block;
 }
 
+.change-password img{
+  vertical-align: middle;
+}
+
 .profile-notification h3{
   margin-top: 1em;
 }

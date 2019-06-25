@@ -65,8 +65,9 @@
   height:100%;
 }
 .header-row-2 img{
-
+  margin-left: 0.35em;
   padding:0.5em;
+  
   background-color: #541D81;
 }
 

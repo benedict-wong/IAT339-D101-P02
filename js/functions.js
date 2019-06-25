@@ -110,7 +110,7 @@ function sortBy(key){
 }
 
 function updatePrefs(x){
-  if(x =="1"){
+  if(x == "1"){
     document.querySelector(".passwordUpdate").style.display="block";
   }
   else{
@@ -118,7 +118,35 @@ function updatePrefs(x){
   }
 }
 
+function eye(x){
+  if(x == '1'){
+    if(document.querySelector("#curr-pass").getAttribute('type') == "password"){
+      document.querySelector("#curr-pass").setAttribute('type','text');
+    }
+    else if(document.querySelector("#curr-pass").getAttribute('type') == "text"){
+      document.querySelector("#curr-pass").setAttribute('type','password');
+    }
+  }
+  else if(x == '2'){
+    if(document.querySelector("#new-pass").getAttribute('type') == "password"){
+      document.querySelector("#new-pass").setAttribute('type','text');
+    }
+    else if(document.querySelector("#new-pass").getAttribute('type') == "text"){
+      document.querySelector("#new-pass").setAttribute('type','password');
+    }
+  }
 
+  else if(x == '3'){
+    if(document.querySelector("#retype-pass").getAttribute('type') == "password"){
+      document.querySelector("#retype-pass").setAttribute('type','text');
+    }
+    else if(document.querySelector("#retype-pass").getAttribute('type') == "text"){
+      document.querySelector("#retype-pass").setAttribute('type','password');
+    }
+  }
+
+
+}
 
 // function changeProfileImg(){
 //   var val = document.getElementById('picUpload').value;
