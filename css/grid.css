@@ -67,7 +67,7 @@
 .header-row-2 img{
   margin-left: 0.35em;
   padding:0.5em;
-  
+
   background-color: #541D81;
 }
 
@@ -233,6 +233,7 @@ div#MU9800{
   flex-flow:row nowrap;
   flex:100%;
   margin-top: 3em;
+  margin-bottom: 5em;
 
 
 
@@ -426,6 +427,7 @@ div#MU9800{
 .order-list{
   text-align: center;
   margin: 1em 15em;
+  margin-bottom: 8em;
 }
 .return-to-home{
   margin-top: 2em;
@@ -437,133 +439,33 @@ div#MU9800{
 
 .news-updates{
   margin-top: 2em;
+  margin-bottom:5em;
 }
 .shipping, .payment{
   margin-top: 2em;
 }
 
 
-/* @media (max-width: 78em) {
-  .item {
-    flex: 33%;
-  }
-  .card {
-    margin:2em 15em;
-  }
-  .about {
-   width: 70%;
-  }
-
-
-}
-@media(max-width:65em){
-  .product-image{
-    flex: 1 1 60%;
-
-  }
-  .product-info{
-    flex: 1 1 40%;
-  }
-
+footer{
+  position:fixed;
+  padding-left: 1em;
+  margin-top: 5em;
+  padding:1em 0;
+  z-index: 999;
+  bottom:0;
+  width:100%;
+  background-color: rgb(37, 51, 65);
+  color:white;
+  text-align: center;
 }
 
-
-
-@media (max-width: 58em) {
-  .catalog-filter {
-    flex: 100%;
-    height: 6rem;
-  }
-  .catalog-list {
-    flex: 100%;
-  }
-  .item {
-    flex: 50%;
-  }
-  .club {
-    flex: 20%;
-  }
-  .container-home {
-    padding: 14rem 6rem;
-  }
-  .card {
-    margin:2em 5em;
-  }
-  .cart-card-left{
-    padding: 1em 2em;
-    padding-right: 1.3em;
-    padding-top: 0;
-  }
-
-  .cart-info-right{
-    align-self: flex-start;
-    margin-right: 2em;
-  }
-  .shipping {
-    width: 80%;
-    padding: 1rem 1.5rem;
-  }
-  .about {
-   width: 100%;
-  }
-
+footer a{
+  color:white !important;
+  padding: 0 6.95vw;
 }
-
-@media (max-width: 40em) {
-  .item {
-    flex: 100%;
-  }
-  .cart {
-
-    flex-flow: row wrap;
-  }
-  .news-container {
-    padding: .5rem .5rem;
-  }
-  .about-contact, .about-addresses, .about-faq,
-  .news-updates, .news-events,
-  .profile-info, .profile-order,
-  .profile-security, .profile-notification,
-  .profile-billing {
-    padding: .75rem .5rem;
-  }
-
-  .club {
-    height: 5rem;
-    flex: 33%;
-  }
-  .container-home {
-    padding: 14rem 0rem;
-  }
-  .card {
-    margin:.5em .25em;
-  }
-  .cart-card-left{
-    flex:100%;
-    padding: 1em 0;
-    padding-top: 0em;
-    padding-right: .5em;
-  }
-
-  .cart-info-right{
-    flex:100%;
-    margin-right: 1em;
-    margin-top: 0;
-    padding: 1em 0;
-  }
-  .shipping {
-    width: 100%;
-    padding: 1rem 1.5rem;
-  }
-
-
-  .product-left{
-    flex: 78%;
-
-  }
-  .product-right{
-    flex: 18%;
-  }
-
-
-} */
+footer a:first-child{
+  border-right: 0.1em solid white;
+}
+footer a:last-child{
+  border-left: 0.1em solid white;
+}

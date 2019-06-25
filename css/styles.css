@@ -24,6 +24,7 @@ header{
 
 
 body{
+
   background-color: #D2D5D5;
   height:100%;
 }
@@ -461,6 +462,7 @@ ul{
 .about-content{
   background-color: white;
   margin:2em 20em;
+  margin-bottom: 5em;
   box-shadow: 0.5em 0.5em 1em -0.4em;
   overflow:auto;
 }
@@ -629,7 +631,9 @@ address span{
   margin-bottom: 2em;
 }
 
-
+#profile-info{
+  margin-bottom: 5em;
+}
 
 @media only screen and (max-width: 100em){
 
@@ -1032,6 +1036,12 @@ address span{
   .section-club{
     margin-left: 0.5em;
 
+  }
+}
+
+@media(max-width:23em){
+  footer a{
+    padding: 0 4vw;
   }
 }
 
