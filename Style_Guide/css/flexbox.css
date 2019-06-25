@@ -174,9 +174,9 @@ input{
   transition: background 0.8s  ease-out;
   }
 
-.header-nav-button:hover{
+/*.header-nav-button:hover{
   background-color: grey;
-}
+}*/
 
 .circular-button{
   border-radius: 50%;
