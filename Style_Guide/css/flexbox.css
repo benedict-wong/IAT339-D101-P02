@@ -285,6 +285,28 @@ input{
   text-align: center;
 }
 
+.color-box {
+  color: white;
+  background-color: rgb(37, 51, 65);
+  width: 15rem;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.color-box-darkblue {
+  background-color: rgb(37, 51, 65);
+}
+
+.color-box-darkred {
+  background-color: rgb(149, 36, 36);
+}
+
+.color-box-bluegrey {
+  color: rgb(37, 51, 65);
+  background-color: rgb(210, 213, 213);
+}
 
 @media(max-width:50em){
   .box{
