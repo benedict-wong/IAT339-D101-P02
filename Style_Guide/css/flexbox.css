@@ -138,7 +138,7 @@ input{
   font-size: 1.65rem;
 }
 
-#reset-button{
+/*#reset-button{
   margin-left: 0;
   height:4em;
   width:5em;
@@ -149,7 +149,7 @@ input{
 #reset-icon{
   height:3em;
   width:3em;
-}
+}*/
 
 #search-button{
   margin-left: 0;

@@ -71,8 +71,8 @@
           </section>
           <section id="button-elements">
             <h3>Buttons</h3>
-            <h4>Submit and Reset Buttons</h4>
-            <p>Submit and reset buttons are used throughout the Footy Fans website. One particular usage of the submit and reset button is not of the traditional form in submitting and resetting a form however. It is used in the search bar. The submit button takes in the user's input into the search bar and turns the keyword into meaningful data. On the other hand, the reset button acts as an 'X' that clears the user's search bar input immediately without the user needing to delete the input manually (with help from javaScript). The code is demonstrated below, first for the search/submit button, then the delete text/reset button:</p>
+            <h4>Search Buttons</h4>
+            <p>Search buttons are used throughout the Footy Fans website. The submit button takes in the user's input into the search bar and turns the keyword into meaningful data. The code is demonstrated below:</p>
             <h5>HTML code</h5>
             <code>&lt;button type="submit"&gt;&lt;img src="images/search-icon.png" alt="search-icon"/&gt;&lt;/button&gt;</code>
             <code>&lt;button type="reset"&gt;&lt;img src="images/reset-icon.png" alt="reset-icon"/&gt;&lt;/button&gt;</code>
@@ -80,7 +80,7 @@
             <h5>CSS code</h5>
             <p> Additionally, as part of the search bar, we use the following styling to keep in line with the website's thematic colors.</p>
             <pre><code>
-            #reset-button{
+<!--             #reset-button{
               margin-left: 0;
               height:4em;
               width:5em;
@@ -90,7 +90,7 @@
             #reset-icon{
               height:3em;
               width:3em;
-            }
+            } -->
             #search-button{
               margin-left: 0;
               height:4em;
@@ -104,20 +104,21 @@
             }
           </code></pre>
 
-          <p> Lastly, in order to clear the text entry using the reset button, we implement javaScript to set the value of the input box to empty. The code is shown below:</p>
+          <!-- <p> Lastly, in order to clear the text entry using the reset button, we implement javaScript to set the value of the input box to empty. The code is shown below:</p>
           <h5>JavaScript code</h5>
           <pre><code>
             function clearText(id){
               var x = document.getElementById(id);
               x.value="";
             }
-          </code></pre>
+          </code></pre> -->
 
-            <h4>Submit and Reset Buttons: Putting it all together</h4>
-            <p> The following area combines the submit and reset buttons, along with the text input area and the label to form the search bar. Try entering information into the search bar and click on the 'X' to clear the input! </p>
+            <h4>Search Buttons: Putting it all together</h4>
+            <p> The following area combines the submit and reset buttons, along with the text input area and the label to form the search bar. Try entering information into the search bar! </p>
             <form>
-            <label for="search-input" id="label-search">Search here: </label><input type="text" name="search-bar" id="search-input">
-            <button type="reset" id="reset-button"><img src="images/reset-icon.png" alt="reset-icon" id="reset-icon" onclick="clearText('search-input')"/></button>
+            <!-- <label for="search-input" id="label-search">Search here: </label> -->
+            <input type="text" name="search-bar" id="search-input" placeholder="Search here...">
+<!--             <button type="reset" id="reset-button"><img src="images/reset-icon.png" alt="reset-icon" id="reset-icon" onclick="clearText('search-input')"/></button> -->
             <button type="submit" id="search-button"><img src="images/search-icon.png" alt="search-icon" id="search-icon"/></button>
             </form>
 
