@@ -351,7 +351,6 @@ ul{
     z-index: 1;
     margin-bottom: 1.5em;
     max-width:50%;
-
 }
 
 .product-img {
@@ -634,6 +633,10 @@ address span{
 
 #profile-info{
   margin-bottom: 5em;
+}
+
+.citations {
+  padding: 2rem;
 }
 
 @media only screen and (max-width: 100em){

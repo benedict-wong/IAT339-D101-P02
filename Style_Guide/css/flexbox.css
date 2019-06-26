@@ -308,6 +308,10 @@ input{
   background-color: rgb(210, 213, 213);
 }
 
+.color-box-purple {
+  background: rgb(84, 29, 129);
+}
+
 @media(max-width:50em){
   .box{
     flex-direction: column;
