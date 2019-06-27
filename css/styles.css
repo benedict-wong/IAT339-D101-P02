@@ -142,7 +142,7 @@ a, a:visited{
   position:absolute;
   top:0;
   left:0;
-  bottom: 1;
+
 
   text-align: center;
   padding: 0.2em 1em;
@@ -832,7 +832,7 @@ address span{
 
 
 
-}
+
 
 @media (max-width: 41em) {
 
@@ -1052,9 +1052,6 @@ address span{
 @media(max-width:22em){
   .nav-row-1{
     margin-left: 0;
-  }
-  .catalog-filter{
-    height:
   }
   .product-img{
     padding-left: 0.1em;

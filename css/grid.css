@@ -347,7 +347,7 @@ div#MU9800{
 }
 
 .about-contact, .about-addresses, .about-faq,
-.news-events,
+.news-events
 {
   flex: 100%;
   padding: 2rem 4rem;
@@ -425,7 +425,6 @@ div#MU9800{
 }
 
 .order-list{
-  text-align: center;
   margin: 1em 15em;
   margin-bottom: 8em;
 }

@@ -3,7 +3,8 @@
   <head>
     <script src="js/linkTo.js"></script>
     <script src="js/headerScroll.js"></script>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/grid.css">
@@ -130,7 +131,7 @@
         <p>Quantity:</p>
         <input type="number" name="quantity" min="1" max="99" value="1">
         <div class="add-to-cart-button">
-          <a href="cart.html"><button type="button">Add to Cart</button></a>
+          <button type="button" onclick="pointTo('cart.html')">Add to Cart</button>
         </div>
       </div>
 
