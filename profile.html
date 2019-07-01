@@ -59,7 +59,7 @@
     </header>
 
 	<!-- content -->
-	<div class="main-content container profile">
+	<main class="main-content container profile">
 		<!-- profile information -->
 
 
@@ -68,11 +68,11 @@
 
 		<!-- order list -->
       <div class="profile-item profile-info" id="profile-info">
-        <h3>Account Settings</h3>
+        <h3 id="account-settings">Account Settings</h3>
 
 
 		<!-- security -->
-		<div class="content-item profile-security">
+		<section class="content-item profile-security">
       <h3>Security Info</h3>
 
       <div class="change-password">
@@ -107,10 +107,10 @@
 
       </div>
 
-		</div>
+		</section>
 
 		<!-- notification -->
-		<div class="content-item profile-notification">
+		<section class="content-item profile-notification">
       <h3>Notifications</h3>
         <ul>
           <li><input type="checkbox" name="newsletter" value="sub-newsletter" checked> Subscribe to our newsletter.</li>
@@ -119,12 +119,12 @@
           <li><p class="updateMessage">Your notification preferences have been updated!</p></li>
           <li><button onclick="updatePrefs(2)">Update</button></li>
         </ul>
-		</div>
+		</section>
 
 		<!-- billing information -->
 		<div class="content-item profile-billing">
       <h3>Billing info</h3>
-      <div class="address-radio">
+      <section class="address-radio">
         <div>
           <input type="radio" name="address" checked>
             <address>
@@ -150,11 +150,11 @@
         </address>
       </div>
 
-    </div>
+    </section>
 		</div>
 	</div>
 </div>
-</div>
+</main>
 <footer>
   <nav>
     <a href="https://github.com/Sanada-Yukimura/IAT339-D101-P02">GitHub</a>
