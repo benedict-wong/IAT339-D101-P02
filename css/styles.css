@@ -376,12 +376,15 @@ ul{
   padding-bottom: 2em;
   align-items: center;
   margin-top: 1em;
+  text-align: center;
+
 
 }
 
 .review-item{
   border:0.05em solid grey;
   flex:1 0 100%;
+
   margin: 1em 1.5em;
   margin-bottom: 1.5em;
   padding: 0.5em 1.2em 1.2em;
@@ -392,6 +395,8 @@ ul{
   max-width: 35em;
   min-width:5em;
   max-height: 15%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .review-top-info{
   display:inline;

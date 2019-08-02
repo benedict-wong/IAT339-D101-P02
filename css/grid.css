@@ -7,7 +7,7 @@
 
 .header-menu{
 
-  padding-top: 1em;
+  padding-top: 0.1em;
   margin: 0;
   display: flex;
   flex-flow: column wrap;
@@ -30,12 +30,15 @@
 }
 
 .nav-main-logo-img{
-  margin-left: 2em;
+  flex:20%;
+  margin-left: 1em;
 }
 
 .nav-row-1 {
+  flex:20%;
   margin-left: auto;
   margin-right: 1.5em;
+
 }
 
 .nav-main-item {
@@ -43,30 +46,37 @@
   padding-right: 0.5em;
   width: 100%;
   height: auto;
+  text-align: right;
 }
 
 .header-row-2{
-  display:flex;
-  flex:1 1 auto;
-  width:50%;
+  flex:60%;
   align-self: center;
-  padding-left: 0.5em;
-  border: 0.1em solid black;
-  margin: 1em 0;
-  background-color: white;
+
+
+  margin: 0 1em;
+  margin-bottom: 1em;
+  height:50%;
+  margin-top: 2em;
+  vertical-align: middle;
+
 }
 
 .header-row-2 input{
   outline:none;
-  border:0;
-  margin: 0.3em 0;
-  margin-top: 0.6em;
+  padding-left: 0.5em;
+  border: 0.1em solid black;
+  margin: 1em 0;
+  margin-top: 0em;
   width:95%;
   height:100%;
 }
 .header-row-2 img{
+
   margin-left: 0.35em;
   padding:0.5em;
+  max-height: 100%;
+  vertical-align: middle;
 
   background-color: #541D81;
 }
@@ -77,7 +87,8 @@
   align-self: center;
   flex: 0 0 50%;
   justify-content: space-around;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
 
 }
 
@@ -87,6 +98,11 @@
   align-items: center;
   padding: 0 6.95vw;
 
+}
+.nav-row-3 a:hover{
+
+  text-decoration: underline;
+  transition: text-decoration 2s ease-in;
 }
 
 
@@ -125,6 +141,7 @@
 
 .container-home {
   padding: 14rem 10rem;
+  padding-top: 10rem;
 }
 
 .catalog-filter {
@@ -449,7 +466,7 @@ footer{
   position:fixed;
   padding-left: 1em;
   margin-top: 5em;
-  padding:1em 0;
+  padding:0.5em 0;
   z-index: 999;
   bottom:0;
   width:100%;
