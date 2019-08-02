@@ -42,6 +42,7 @@
 }
 
 .nav-main-item {
+
   margin-top: 1.5em;
   padding-right: 0.5em;
   width: 100%;
@@ -49,9 +50,17 @@
   text-align: right;
 }
 
+.profile-cart{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+
 .header-row-2{
   flex:60%;
   align-self: center;
+  text-align: center;
 
 
   margin: 0 1em;
@@ -68,7 +77,7 @@
   border: 0.1em solid black;
   margin: 1em 0;
   margin-top: 0em;
-  width:95%;
+  width:50%;
   height:100%;
 }
 .header-row-2 img{
@@ -142,6 +151,10 @@
 .container-home {
   padding: 14rem 10rem;
   padding-top: 10rem;
+}
+
+.index-banner{
+  max-width:100%;
 }
 
 .catalog-filter {
